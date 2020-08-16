@@ -1,9 +1,9 @@
 <img src="https://bit.ly/2VnXWr2" alt="Ironhack Logo" width="100"/>
 
-# Rocket launches analysis
+# Rocket launches
 *Lola López Gilabert*
 
-*bcn-data-june-2020*
+*Data Analytics Part Time Course | Barcelona June 2020*
 
 ## Content
 - [Project Description](#project-description)
@@ -12,18 +12,32 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+This project obtains data from the future launches information from Space Launch Now site.
+The API gives information about the launch window, the launch name, the rocket provider, etc.
+From the website, I have obtained the description of the launch. In some cases there is a description of the payload inside the rocket, in other cases if there is no information about the payload yet.
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+The steps followed to complete the project were:
+1) Import all the libraries needed
+2) Use the API to get the information about the next launches:
+- Specify the status of the launch: GO and TBD (to be defined) are the ones we are interested in
+- Loop over the different pages in the API to get all the data
+- Transform the data to a Data Frame and export it into a CSV file
+3) Scrap the website to obtain the description of the payload for each launch:
+- From the API data obtained, there is one column which is called *slug* that contains a URL which is the one to be used for each rocket launch
+- Obtain a list with all the URLs
+- Create a class that contains the functions to use: generate a random user-agent, scrape the website, check if there is any error in the request's response, print the output
+- Define the parser to get the information of the launch name and its description
+- Execute the previous functions and convert the data obtained into a Data Frame
+- Export the data to a CSV file
+4) Open both files, merge and export them into a new csv file
 
 ## Organization
-How did you organize your work? Did you use any tools like a trello or kanban board?
-
-What does your repository look like? Explain your folder and file structure.
+The repository is organised in the following way:
+- README.md: this file
+- output folder: it contains the csv files with the exported data from the API and the web as well as the fina output file after merging the initial files
+- main.ipynb: juypter notebook containing the code in python
 
 ## Links
-Include links to your repository and slides. Feel free to include any other links associated with your project. 
-
-[Repository](https://github.com/)  
+[SpaceLaunchNow](https://spacelaunchnow.me/) 
 [Slides](https://slides.com/)    
