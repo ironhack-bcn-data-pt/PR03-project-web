@@ -10,12 +10,13 @@
 <p align="center">
   <img width="387" height="83" src="src/protectora.jpg">
 </p>
-Choose an adoptable dog, figure out the best place for her/him to live!
+
+   *Choose an adoptable dog, figure out the best place for her/him to live!*
 
 
 ## Overview
 
-The goal of this project is to understand what would be the **best home** in Barcelona based on its square mts for a **dog adopted** by the kennel of the city.
+The goal of this project is to understand what would be the **best home**for a **dog adopted** by the kennel of Barcelona, based on its square mts .
 
 
 ---
@@ -23,9 +24,9 @@ The goal of this project is to understand what would be the **best home** in Bar
 ## Project structure  
 
 
-* **web.ipynb** Jupyter notebook that contains the code to scrape the page of the 'protectora de Barcelona'.
+* **web_scraping.ipynb** Jupyter notebook that contains the code to scrape the page of the 'protectora de Barcelona'.
 * **api.ipynb** Jupyter notebook that contains the code to scrape the api of idealista.
-* **datsets.ipynb** Jupyter notebook that contains where I merge the results from the web scrapping and the api investigation.
+* **datasets.ipynb** Jupyter notebook that contains the merged results from the web scrapping and the api investigation.
 * **output** Folder that contains the cleaned datasets and the output of my data pipeline.
 * **src** Images and resources.
 
@@ -41,26 +42,27 @@ The goal of this project is to understand what would be the **best home** in Bar
 
 ## Setbacks
 * Extracting information from different URLs
+* Concatenating different dataframes
 
 
 ## 2.:house_with_garden: API idealista
 
-* I chose the of **idealista** to find sqm of the flats/houses in Barcelona
+* I chose the API of **idealista** to find the sqm of the flats/houses in Barcelona
 
 ## Objectives
-* I used the API of **idealista** to retrieve information of sqm of the flats/houses in Barcelona.
+* Using the API to retrieve information about the sqm of the flats/houses in Barcelona.
 * Extracting and organising the information
 * Creating a dataframe
 
 ## Setbacks
 * Problems with authentication (tricky stuff)
 
-## 3.:house_with_garden: + :dog: Merging dataframes
+## 3.:dog:+:house_with_garden: Merging dataframes
 
-* Merging resulting dataframes of web scraping and API
+* Final analysis: which is the best home for an adoptable dog based on its size and the sqm of the place where it'll go to live?
 
 ## Objectives
-* Joining dataframes using the dog size.
+* Merging dataframes using the dog size.
 * Correcting inconsistencies.
 * Extracting and organising the information
 * Creating a final dataframe resuming the results
