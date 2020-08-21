@@ -22,11 +22,11 @@ The steps followed to complete the project were:
 2) Use the API to get the information about the next launches:
 - Specify the status of the launch: GO and TBD (to be defined) are the ones we are interested in
 - Loop over the different pages in the API to get all the data
-- Transform the data to a Data Frame and export it into a CSV file
+- Transform the data into a Data Frame and export it to a CSV file
 3) Scrap the website to obtain the description of the payload for each launch:
 - From the API data obtained, there is one column which is called *slug* that contains a URL which is the one to be used for each rocket launch
 - Obtain a list with all the URLs
-- Create a class that contains the functions to use: generate a random user-agent, scrape the website, check if there is any error in the request's response, print the output
+- Create a class that contains the functions to use: to generate a random user-agent, to scrape the website, to check if there is any error in the request's response, to print the output
 - Define the parser to get the information of the launch name and its description
 - Execute the previous functions and convert the data obtained into a Data Frame
 - Export the data to a CSV file
