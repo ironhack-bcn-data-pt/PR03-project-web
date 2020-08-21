@@ -3,9 +3,9 @@
 # Best Rated Local Cusine Restaurant in Barcelona - Bodega Biarritz 1881
 
 
-[Anna Vilardell]
+*Anna Vilardell*
 
-[Data Analytics-Part Time Course | Barcelona July 2020]
+*Data Analytics-Part Time Course | Barcelona July 2020*
 
 
 ## Content
@@ -16,6 +16,7 @@
 
 ## Project Description and Workflow
 
+
 ### Description
 
 Analysis of all reviews given to the Best Rated Local Cusine Restaurant in Barcelona by Tripadvisor:Bodega Biarritz 1881. 
@@ -23,15 +24,16 @@ Analysis of all reviews given to the Best Rated Local Cusine Restaurant in Barce
 
 Main questions to be answered: 
 
-    - What are clients saying about the best rated local curinse restaurant in Barcelona in Tripadvisor?
+    - What are clients saying about the restaurant?
 
     - Is Yelp having the same type of reviews that are found in TripAdvisor?
 
 
 Challenge:
 
-    - First analysis (Tripadvisor) is done by web Scrpaing.
-    - Second analysis (Yelp) is done with Yelp APi.
+    - First analysis (Tripadvisor) is done Web Scraping
+    - Second analysis (Yelp) is done with Yelp API
+
 
 
 ### Workflow
@@ -42,8 +44,9 @@ Challenge:
 4. Analyse all reviews (Tripadvisor and Yelp)
     - Sentiment Analysis
     - Main mention words
-    - Reviews' Evolution (2013-2020)
+    - Reviews' evolution (2013-2020)
 6. Get Conclusions
+
 
 
 
@@ -53,7 +56,7 @@ Challenge:
 
 1. Organize a Trello board with main tasks and timings
 2. Create a repository including a .gitignore file and a Readme.md
-3. Examine the data and try to understand what data we have before start scraping or/and using APIs to get that data
+3. Examine the data (websites) before start scraping or/and using APIs to get that data
 4. Start web scraping/API + analysing
 6. Write conclusions
 7. Complete Readme.md
