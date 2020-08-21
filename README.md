@@ -4,62 +4,29 @@
 
 ## Overview
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
+In this project I tried to recover some data from both a website that shows some statistics for all the matchups in Hearthstone, a popular card game for PC and also check all the tournaments avaiable that qualify for bigger european tournaments. To obtain this I mixed some scrapping, with API usage + selenium. 
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
 
----
+## Steps I took & thought process
 
-## Technical Requirements
+1 - For the data scraping on Metastats was straigh forward, I accessed the webpage, checked the HTML, tried to do a request call on the url and the information I got was as I wanted to received to I converted it to a soup and just search for values and store them in a matrix , which I later convert into a Pandas Dataframe. 
 
-The technical requirements for this project are as follows:
+2 - For Battlefy tournaments was far more complicated. First I realized that if I wanted to obtain groups of tournaments I should find the API for the search engine. With the network tab openened I went into the tournament search engine and observed the messages till I found 1 suspicious package json file. The Url revealed to me the structure I had to define. 
 
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
+3- The Issue I faced then was that the json file didn-t contain all the tournaments between those dates, but contain a attribute with the next tournament so I just kept iterating quering into the url updating the startdate with the next_tournament_date up until this last one was superior to end date. This way I could obtain all tournaments and then filter all those who hadn't "Madrid Qualifier" on their name.
 
-## Necessary Deliverables
+4- When you access the stats tab you see some json files being received , 1 of them contains all the data about all matches played in the tournament, that's what I wanted to obtain but one of the parameters "stage" I had no way to obtain it. So I had to play more around. Then I realized that the url I was in after clicking the stats tab contained that parameter aswell. So I knew what I had to do, access every tournament url, and then using selenium click on the stats tab so the url updates and I can obtain the stage_id to be able to use the API to obtain all results for all tournaments.
 
-The following deliverables should be pushed to your Github repo for this chapter.
+5- I faced sine Issues while trying to acomplish the selenium click, first of all this website doesn't show the stats tab if Chrome isn't maximiez, and therefore was crashing, so I had to add that option to the driver. After that still didn't worked, I assumed it was due to the component not being clickable yet so I set up a waiting till it was ready. Then it worked but the url didn't get updated, so I setup a sleep to wait for it. Then it worked and I could access all the matches for all the tournaments, store them into a custom class I created and then create separate dataframes for every one of them.
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
+6-Export the data.
 
-## Suggested Ways to Get Started
 
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+## Possible improvements
 
-## Useful Resources
+-The decklist are grouped by class and since there are classes which arquetypes can have wildly different matchups, having all of them merged doesn't seem proper for best data analysis.
 
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+-A tournament grouper class would be useful in order to posterior analysis of groups of tournaments which summarized all the data contained in those tournaments.
 
-## Project Feedback + Evaluation
 
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
-
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
-
-* __Total__: Your instructors will give you a total score on your project between:
-
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectactions, good job!
-    2|Exceeds expectations, you wonderful creature, you!
-
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
 
