@@ -1,0 +1,149 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>PivotTable.js</title>
+
+        <!-- external libs from cdnjs -->
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.5/d3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/c3/0.4.11/c3.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/pivot.min.css">
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/pivot.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/d3_renderers.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/c3_renderers.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/pivottable/2.19.0/export_renderers.min.js"></script>
+
+        <style>
+            body {font-family: Verdana;}
+            .node {
+              border: solid 1px white;
+              font: 10px sans-serif;
+              line-height: 12px;
+              overflow: hidden;
+              position: absolute;
+              text-indent: 2px;
+            }
+            .c3-line, .c3-focused {stroke-width: 3px !important;}
+            .c3-bar {stroke: white !important; stroke-width: 1;}
+            .c3 text { font-size: 12px; color: grey;}
+            .tick line {stroke: white;}
+            .c3-axis path {stroke: grey;}
+            .c3-circle { opacity: 1 !important; }
+            .c3-xgrid-focus {visibility: hidden !important;}
+        </style>
+    </head>
+    <body>
+        <script type="text/javascript">
+            $(function(){
+                if(window.location != window.parent.location)
+                    $("<a>", {target:"_blank", href:""})
+                        .text("[pop out]").prependTo($("body"));
+
+                $("#output").pivotUI(
+                    $.csv.toArrays($("#output").text()),
+                    $.extend({
+                        renderers: $.extend(
+                            $.pivotUtilities.renderers,
+                            $.pivotUtilities.c3_renderers,
+                            $.pivotUtilities.d3_renderers,
+                            $.pivotUtilities.export_renderers
+                            ),
+                        hiddenAttributes: [""]
+                    }, {})
+                ).show();
+             });
+        </script>
+        <div id="output" style="display: none;">Year of review,Month of review,Polarity Rate
+2013,4,0.08125000000000002
+2013,5,0.17058823529411765
+2013,6,0.2082936507936508
+2013,7,0.30530927579365075
+2013,8,0.19821199344636845
+2013,9,0.25748736347040446
+2013,10,0.31156385281385285
+2013,11,0.36362390350877194
+2013,12,0.41875
+2014,3,0.3022816072816073
+2014,4,0.252080327080327
+2014,5,0.3549520826849258
+2014,6,0.5228237734487735
+2014,7,0.4071933892904481
+2014,8,0.3006241957481662
+2014,9,0.2905053667737491
+2014,10,0.3715335434000362
+2014,11,0.36367872603586887
+2014,12,0.2816889615014615
+2015,1,0.3358333333333334
+2015,2,0.4088888888888889
+2015,3,0.3076365210850691
+2015,4,0.33605339105339105
+2015,5,0.3417257851377097
+2015,6,0.326873440971267
+2015,7,0.2708006806789702
+2015,8,0.35362433862433856
+2015,9,0.321127786429257
+2015,10,0.35464954115507963
+2015,11,0.3818549995755877
+2015,12,0.3597114572436542
+2016,1,0.44403755590849736
+2016,2,0.5069960317460318
+2016,3,0.30031490830597973
+2016,4,0.2528463680848058
+2016,5,0.2963392927808929
+2016,6,0.3079105238957181
+2016,7,0.34074832757712814
+2016,8,0.3082022651016554
+2016,9,0.29435231573207193
+2016,10,0.30016707440792867
+2016,11,0.338733285118734
+2016,12,0.3426489897305724
+2017,1,0.36314208909370205
+2017,2,0.42638888888888893
+2017,3,0.43328963775264795
+2017,4,0.3662301307173466
+2017,5,0.3397452893725951
+2017,6,0.36969378004914744
+2017,7,0.3981699220092077
+2017,8,0.2907681465753676
+2017,9,0.3381686065763389
+2017,10,0.3841802504252763
+2017,11,0.31108448865059446
+2017,12,0.2750782867494824
+2018,1,0.5309199134199134
+2018,2,0.23854828042328044
+2018,3,0.33260856045583953
+2018,4,0.387173480124373
+2018,5,0.40634734385634946
+2018,6,0.3982038615319866
+2018,7,0.23735834535834538
+2018,8,0.35702765755039817
+2018,9,0.3843236297354995
+2018,10,0.35079352083311366
+2018,11,0.3162974998092185
+2018,12,0.39
+2019,1,0.20166666666666663
+2019,2,0.11214285714285713
+2019,3,0.38305834731078575
+2019,4,0.3289473124294724
+2019,5,0.4127632306717673
+2019,6,0.3527600019130605
+2019,7,0.41982176036523855
+2019,8,0.37944981690949436
+2019,9,0.3786559594251902
+2019,10,0.40092380471492317
+2019,11,0.3998484814170298
+2019,12,0.3628982791957416
+2020,1,0.41267734821800317
+2020,2,0.37773998653462937
+2020,3,0.36740057165057166
+2020,6,0.28541666666666665
+</div>
+    </body>
+</html>
