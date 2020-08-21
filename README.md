@@ -6,6 +6,7 @@
 
 In this project I tried to recover some data from both a website that shows some statistics for all the matchups in Hearthstone, a popular card game for PC and also check all the tournaments avaiable that qualify for bigger european tournaments. To obtain this I mixed some scrapping, with API usage + selenium. 
 
+For those who want to understand a bit more about Hearthstone https://playhearthstone.com/en-us/new-to-hearthstone/
 
 ## Steps I took & thought process
 
