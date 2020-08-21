@@ -31,13 +31,16 @@ The steps followed to complete the project were:
 - Execute the previous functions and convert the data obtained into a Data Frame
 - Export the data to a CSV file
 4) Open both files, merge and export them into a new csv file
+5) Analysis of the future launches. It includes a world map with the locations of the launch pads
 
 ## Organization
 The repository is organised in the following way:
 - README.md: this file
 - output folder: it contains the csv files with the exported data from the API and the web as well as the fina output file after merging the initial files
+- pictures folder: it contains the images used inside the notebook
 - main.ipynb: juypter notebook containing the code in python
+- main.slides.html: presentation slides
 
 ## Links
 [SpaceLaunchNow](https://spacelaunchnow.me/) 
-[Slides](https://slides.com/)    
+[Slides] main.slides.html   
