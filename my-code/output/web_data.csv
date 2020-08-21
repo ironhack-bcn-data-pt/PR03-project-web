@@ -1,9 +1,9 @@
 name,description,date
-Falcon 9 Block 5 | Starlink 10,A batch of 58 satellites for Starlink mega-constellation - SpaceX's project for space-based Internet communication system. This launch will also carry 3 SkySat Earth-imaging satellites as a rideshare.,2020-08-18
+Long March 2D | Gaofen-9-05,no information,2020-08-23
 Delta IV Heavy | NROL-44,no information,2020-08-26
+Falcon 9 Block 5 | SAOCOM 1B,"The SAOCOM 1B spacecraft is the second of the two SAOCOM constellation satellites. It is tasked with hydrology and land observaion, and will also operate jointly with the Italian COSMO-SkyMed constellation in X-band to provide frequent information relevant for emergency management.",2020-08-27
 Electron | STP-27RM,A U.S. Air Force experimental spacecraft.,2020-08-31
 MOMO | Flight 7,The sixth (Flight 6 has not happened yet) flight of Interstellar Technologies MOMO rocket.,2020-08-31
-Falcon 9 Block 5 | SAOCOM 1B,"The SAOCOM 1B spacecraft is the second of the two SAOCOM constellation satellites. It is tasked with hydrology and land observaion, and will also operate jointly with the Italian COSMO-SkyMed constellation in X-band to provide frequent information relevant for emergency management.",2020-08-31
 Soyuz 2.1a | Bars-M No. 3,"Bars-M is the second incarnation of the Bars project, which was started in the mid 1990ies to develop a successor for the Komtea class of area surveillance satellites. The original Bars project was halted in the early 2000s. In 2007, TsSKB-Progress was contracted for Bars-M, for which reportedly the Yantar-based service module was replaced by a new developed advanced service module.
 The Bars-M satellites feature an electro-optical camera system called Karat, which is developed and built by the Leningrad Optical Mechanical Association (LOMO), and a dual laser altimeter instrument to deliver topographic imagery, stereo images, altimeter data and high-resolution images with a ground resolution around 1 meter.",2020-08-31
 Astra Rocket 3.1 | Maiden Flight,This is the first orbital attempt of Astra Space small satellite launch vehicle. Rocket carries no payload for this flight.,2020-08-31
@@ -15,9 +15,9 @@ Payload includes dozens of satellites: Athena, ION CubeSat Carrier, ESAIL, NEMO-
 Falcon 9 Block 5 | Sirius SXM-7,"SXM-7 is a large high power broadcasting satellite for SiriusXM's digital audio radio service (DARS).
 Space Systems/Loral (SS/L) got in July 2016 the contract to build the two satellites based on their SSL-1300 bus - SXM-7 and SXM-8. Both operate in the S-band spectrum. Each satellite will generate more than 20-kW of power and will have a large unfurlable antenna reflector, which enables broadcast to radios without the need for large dish-type antennas on the ground.
 SXM-7 is meant to replace the XM-3 satellite.",2020-09-30
-Long March 6 | Satellogic x 10,First batch of remote sensing satellites for Satellogic's constellation.,2020-09-30
-Falcon 9 Block 5 | GPS III SV04,no information,2020-09-30
+Long March 6  | Satellogic x 10,First batch of remote sensing satellites for Satellogic's constellation.,2020-09-30
 Antares 230+ | Cygnus CRS-2 NG-14,This is the 15th planned flight of the Orbital ATK's uncrewed resupply spacecraft Cygnus and its 14th flight to the International Space Station under the Commercial Resupply Services contract with NASA.,2020-09-30
+Falcon 9 Block 5 | GPS III SV04,no information,2020-10-01
 Electron | StriX-α,no information,2020-10-01
 Atlas V 551 | STP-3,no information,2020-10-01
 Atlas V 511 | USSF-8,no information,2020-10-01
@@ -40,10 +40,10 @@ Sentinel-6A is to operate in a highly-inclined circular orbit at an altitude of 
 Soyuz 2.1b/Fregat-M | OneWeb 8,no information,2020-11-01
 Angara A5/Briz-M | Dummy payload,no information,2020-11-03
 Soyuz STA/Fregat | CSO 2,"The CSO 2 (Composante Spatiale Optique 2) satellite is the second of three new-generation high-resolution optical imaging satellites for the French military, replacing the Helios 2 spy satellite series.",2020-11-06
-Long March 5 | Chang'e 5,"Chang'e 5 is China's robotic sample return mission, which is set to bring back at lest 2 kg of lunar soils and rock samples. The probe will perform a soft landing on the Moon, then rendezvous and dock with the return module in lunar orbit and fly back to the Earth.",2020-11-24
-PSLV | Oceansat-3,"Oceansat-3 is a part of ISRO's Oceansat program. Its main purpose is ocean observation, which includes gathering ocean color data, sea surface temperature measurements and wind vector data.",2020-12-01
+Long March 5  | Chang'e 5,"Chang'e 5 is China's robotic sample return mission, which is set to bring back at lest 2 kg of lunar soils and rock samples. The probe will perform a soft landing on the Moon, then rendezvous and dock with the return module in lunar orbit and fly back to the Earth.",2020-11-24
+PSLV  | Oceansat-3,"Oceansat-3 is a part of ISRO's Oceansat program. Its main purpose is ocean observation, which includes gathering ocean color data, sea surface temperature measurements and wind vector data.",2020-12-01
 PSLV-CA | RISAT-2BR2,Satellite imaging mission of ISRO using an active SAR (Synthetic Aperture Radar) imager to provide continuity of service for RISAT-2.,2020-12-01
-SSLV | Demo 2 (4 x BlackSky Global satellites),Second test flight of Indian SSLV (Small Satellite Launch Vehicle).,2020-12-01
+SSLV  | Demo 2 (4 x BlackSky Global satellites),Second test flight of Indian SSLV (Small Satellite Launch Vehicle).,2020-12-01
 Zhuque-2 | Maiden Flight,First flight of the new methalox rocket developed by Chinese startup LandSpace.,2020-12-01
 GSLV Mk III | GSAT-20,"GSAT-20 is an Indian geostationary Ka-band high-throughput communications satellite.
 GSAT 20 is reportedly built on the I-6K unified modular bus and features a Ka-band high-throughput communications payload with 70 Gbps throughput utilizing multiple spot beams providing broadband services across the Indian region.
@@ -58,9 +58,9 @@ SXM-8 is meant to replace the XM-4 satellite.",2020-12-01
 Soyuz 2.1b/Fregat-M | OneWeb 5,no information,2020-12-01
 Falcon 9 Block 5 | Dedicated SSO Rideshare Mission 1,no information,2020-12-01
 Ariane 5 ECA | Unknown & Eutelsat Quantum,no information,2020-12-01
-PSLV | RISAT-1A,no information,2020-12-01
+PSLV  | RISAT-1A,no information,2020-12-01
 Angara A5/Persey | Ekspress AMU,no information,2020-12-01
-SSLV | Demo 1,First test flight of Indian SSLV (Small Satellite Launch Vehicle).,2020-12-01
+SSLV  | Demo 1,First test flight of Indian SSLV (Small Satellite Launch Vehicle).,2020-12-01
 Falcon 9 Block 5 | Spaceflight GTO-2,no information,2020-12-01
 GSLV Mk II | GSAT-7C,no information,2020-12-01
 GSLV Mk II | GSAT-32,no information,2020-12-01
@@ -70,7 +70,7 @@ Ariane 5 ECA | Star One D2 & unknown,no information,2020-12-01
 H-III 30 | ALOS-3 (Maiden flight),no information,2020-12-01
 Terran 1 | Test Flight,Maiden launch of the Terran 1 rocket developed by Relativity Space.,2020-12-01
 Soyuz 2.1b/Fregat-M | OneWeb 4,no information,2020-12-01
-PSLV | RISAT-2A,RISAT-2A is the third in the series of radar imaging RISAT satellites. The satellite carries a sophisticated synthetic aperture radar that operates at 5.35 GHz in C band.,2020-12-01
+PSLV  | RISAT-2A,RISAT-2A is the third in the series of radar imaging RISAT satellites. The satellite carries a sophisticated synthetic aperture radar that operates at 5.35 GHz in C band.,2020-12-01
 GSLV Mk II | GISAT-1,"GISAT-1 is an Indian earth observation satellite to be launched in geostationary orbit. It is tasked with continuous observation of Indian sub-continent and quick monitoring of natural hazards and disaster. GISAT carries an imaging payload consisting of of multi-spectral, multi-resolution from 50 m to 1.5 km. It will provide pictures of the area of interest on near real time basis including border areas.",2020-12-01
 PSLV-XL | GSAT-12R,GSAT-12R is an Indian telecommunications satellite.,2020-12-01
 Ariane 5 ECA | Unknown satellite for Intelsat,no information,2020-12-01
@@ -89,7 +89,7 @@ Falcon Heavy | ViaSat-3 series satellite,"The ViaSat-3 is a series of three Ka-b
 Long March ? | Fengyun-4C,no information,2021-01-01
 H-IIA 202 | ALOS-4,no information,2021-01-01
 Soyuz 2.1b/Fregat | Glonass-K2,no information,2021-01-01
-Long March 7 | Tianzhou-2,no information,2021-01-01
+Long March 7  | Tianzhou-2,no information,2021-01-01
 Soyuz 2.1b | Resurs-P No.4,no information,2021-01-01
 Long March 3B | Fengyun-4B,China's geostationary meteorological satellite program FY-4 (Feng Yun 4) is the second generation of chinese geostationary meteorological satellites.,2021-01-01
 Soyuz STB/Fregat | 2 x Galileo,no information,2021-01-01
@@ -99,28 +99,29 @@ Vega-C | 2 x Pléiades Neo,no information,2021-01-01
 Ariane 5 ECA | Measat-3d,no information,2021-01-01
 LauncherOne | Ignis & others,no information,2021-01-01
 Soyuz 2.1a/Fregat-M | CAS500-2 & rideshare,no information,2021-01-01
-Angara A5/Briz-M | Unknown military payload,no information,2021-01-01
+Atlas V 551 | ViaSat-3 series satellite,no information,2021-01-01
 "Soyuz 2.1b/Fregat-M | Gonets-M30, Gonets-M31, Gonets-M32",no information,2021-01-01
 Falcon 9 Block 5 | GPS III SV05,no information,2021-01-01
 Vega | CERES,no information,2021-01-01
 Falcon 9 Block 5 | Türksat 5B,no information,2021-01-01
-Atlas V 551 | ViaSat-3 series satellite,no information,2021-01-01
+Angara A5/Briz-M | Unknown military payload,no information,2021-01-01
 LauncherOne | STP-27VP,no information,2021-01-01
 GSLV | IDRSS-2,no information,2021-01-01
 Soyuz STB/Fregat | METOP-SG B1,no information,2021-01-01
 Vega-C | CSG-2,"CSG-2 is an Earth observation satellite for Italian Space Agency, a part of the two-satellite constellation for reconnaissance purposes.",2021-01-01
+Soyuz STB/Fregat | METOP-SG A1,no information,2021-01-01
 H-IIA | XARM & SLIM,"X-Ray Astronomy Recovery Mission (XARM) is a replacement for the Hitomi satellite that malfunctioned few weeks after the launch.
 Smart Lander for Investigating Moon (SLIM) is a lunar probe that will target a landing on a small crater in Mare Nectaris, an area located near the moonâ€™s equator on the side facing Earth.",2021-01-01
 Falcon 9 Block 5 | NROL-87,no information,2021-01-01
 Falcon 9 Block 5 | NROL-85,no information,2021-01-01
-Soyuz STB/Fregat | METOP-SG A1,no information,2021-01-01
 Antares 230+ | Cygnus CRS-2 NG-15,no information,2021-02-01
-PSLV | Amazonia 1,no information,2021-02-01
+PSLV  | Amazonia 1,no information,2021-02-01
 Falcon Heavy | USSF-52,no information,2021-03-01
 Atlas V 421 | SBIRS GEO-5,no information,2021-03-01
 Electron | RASR-3,no information,2021-03-01
 Electron | RASR-4,no information,2021-03-01
 OmegA | 2 x NationSat & others,This is the maiden flight of the OmegA rocket developed by Northrop Grumman. This launch also carries small geostationary satellites called NationSat for Saturn Satellite Networks.,2021-03-01
+Falcon 9 Block 5 | Dragon CRS-2 SpX-22,no information,2021-03-12
 Falcon 9 Block 5 | SpX USCV-2 (NASA Crew Flight 2),"SpaceX Crew-2 will be the second crewed operational flight of a Crew Dragon spacecraft, and the third overall crewed orbital flight. It will use the same Falcon 9 first stage as the Crew-1 mission and the same Crew Dragon capsule as the Demo-2 mission (Endeavour).",2021-03-30
 Falcon 9 Block 5 | X-Ray Polarimetry Explorer (IXPE),no information,2021-04-01
 Minotaur I | NROL-111,Classified payload for the U.S. National Reconnaissance Office.,2021-04-01
@@ -138,7 +139,7 @@ Falcon 9 Block 5 | Double Asteroid Redirection Test (DART),"Double Asteroid Redi
 DART is a planetary defense-driven test of one of the technologies for preventing the Earth impact of a hazardous asteroid: the kinetic impactor. DARTâ€™s primary objective is to demonstrate a kinetic impact on a small asteroid. The binary near-Earth asteroid (65803) Didymos is the target for DART. While Didymosâ€™ primary body is approximately 800 meters across, its secondary body (or â€œmoonletâ€) has a 150-meter size, which is more typical of the size of asteroids that could pose a more common hazard to Earth.
 The DART spacecraft will achieve the kinetic impact by deliberately crashing itself into the moonlet at a speed of approximately 6 km/s, with the aid of an onboard camera and sophisticated autonomous navigation software. The collision will change the speed of the moonlet in its orbit around the main body by a fraction of one percent, enough to be measured using telescopes on Earth.",2021-06-01
 Ariane 5 ECA | Heinrich Hertz (H2Sat),no information,2021-06-01
-Ravn | ASLON-45,Agile Small Launch Operational Normalizer-45 (ASLON-45) is a USAF mission which will consist of multiple 3U and larger U.S. government cubesats to low Earth orbit (LEO) at a 45 degree inclination.,2021-07-01
+Ravn  | ASLON-45,Agile Small Launch Operational Normalizer-45 (ASLON-45) is a USAF mission which will consist of multiple 3U and larger U.S. government cubesats to low Earth orbit (LEO) at a 45 degree inclination.,2021-07-01
 Vulcan 522 | Peregrine lunar lander (Maiden flight),no information,2021-07-01
 Electron | CAPSTONE,"CAPSTONE (Cislunar Autonomous Positioning System Technology Operations and Navigation Experiment) is a 12-U cubesat mission to test operations in near rectiliniar halo orbit around the Moon, which is to be used for the Lunar Gateway space station. Mission will verify the near rectilinear halo orbit characteristics, spacecraft-to-spacecraft navigation services in that orbit, and provide valuable experience of small sat launch to the Moon.",2021-07-01
 Ariane 5 ECA | Ovzon-3,no information,2021-07-01
@@ -163,7 +164,7 @@ Atlas V 541 | GOES-T,no information,2021-12-01
 Vulcan 542 | Dream Chaser CRS 2 Flight 2,no information,2021-12-01
 Vega-C | KOMPSAT-7,KOMPSAT-7 is the follow-up model of KOMPSAT-3A whose mission is to provide high-resolution satellite images to satisfy South-Koreaâ€™s governmental and institutional needs.,2021-12-01
 Atlas V 551 | Silent Barker,no information,2022-01-01
-Epsilon | JV-LOTUSat-2,no information,2022-01-01
+Epsilon  | JV-LOTUSat-2,no information,2022-01-01
 Vega-C | Space Rider,no information,2022-01-01
 Vega | THEOS-2,no information,2022-01-01
 Vega | NAOS,no information,2022-01-01
@@ -179,7 +180,7 @@ GSLV Mk II | NISAR (NASA-ISRO Synthetic Aperture Radar),no information,2022-01-0
 Atlas V 421 | SBIRS GEO-6,no information,2022-01-01
 Proton-M/Blok DM-03 | Elektro-L No.4,no information,2022-01-01
 Atlas V 401 | JPSS 2 (Joint Polar Satellite System spacecraft No. 2),"JPSS is a collaborative program between NOAA and NASA. JPSS-2 is one of five satellites that will comprise the JPSS constellation. These spacecraft gather global measurements of atmospheric, terrestrial and oceanic conditions, including sea and land surface temperatures, vegetation, clouds, rainfall, snow and ice cover, fire locations and smoke plumes, atmospheric temperature, water vapor and ozone.",2022-01-01
-H-III | Inmarsat satellite,no information,2022-01-01
+H-III  | Inmarsat satellite,no information,2022-01-01
 H-III 24 | HTV-X1,no information,2022-02-01
 Vulcan | USSF-106,USSF-106 is a mission for the United States Space Force.,2022-03-01
 Vulcan | USSF-51,no information,2022-03-01
@@ -200,14 +201,14 @@ Vega | Biomass,"Biomass is an Earth observation satellite launched as a part of 
 Falcon 9 Block 5 | Arctic Satellite Broadband Mission,no information,2022-10-01
 "Falcon 9 Block 5 | PACE (Plankton, Aerosol, Cloud, ocean Ecosystem)","PACE (Plankton, Aerosol, Cloud, ocean Ecosystem) is a NASA Earth observation satellite mission. It will make global ocean color measurements to provide extended data records on ocean ecology and global biogeochemistry (e.g., carbon cycle) along with polarimetry measurements to provide extended data records on clouds and aerosols.",2022-12-01
 Proton-M/Blok DM-03 | Elektro-L No.5,no information,2022-12-01
-Long March 5 | Chang'e 6,Chang'e 6/CE-6 is scheduled to launch around 2020. It will land in the the polar region of the Moon and get a sample for return to Earth,2023-01-01
-Epsilon | JV-LOTUSat-1,no information,2023-01-01
+Long March 5  | Chang'e 6,Chang'e 6/CE-6 is scheduled to launch around 2020. It will land in the the polar region of the Moon and get a sample for return to Earth,2023-01-01
+Epsilon  | JV-LOTUSat-1,no information,2023-01-01
 Vega | FLEX,The Fluorescence Explorer (FLEX) satellite is a part of ESA's Earth Explorer program. The satellite will map vegetation fluorescence to quantify photosynthetic activity.,2023-01-01
 Delta IV Heavy | NROL-68,no information,2023-01-01
 Angara A5/Briz-M | Unknown,no information,2023-10-01
 Vega-C | Ital-GovSatCom,no information,2024-01-01
 SLS Block 1 | Artemis-3,no information,2024-01-01
-Long March 5 | Chang'e 7,no information,2024-01-01
+Long March 5  | Chang'e 7,no information,2024-01-01
 Delta IV Heavy | NROL-70,no information,2024-01-01
 Soyuz 2.1b/Fregat-M | Luna 26,no information,2024-11-13
 Soyuz 2.1b/Fregat-M | Luna 27,no information,2025-01-01
