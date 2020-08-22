@@ -14,3 +14,13 @@ I used the https://developer.spotify.com/dashboard/applications to get all the d
 - I rename the albums according to their album season
 - I eliminated duplicates song values
 - I saved all the information in a TXT file.
+
+
+##  Web Data Scraping
+
+I used the YOUTUBE channel on "NPR tiny desk concert" channel to get all KPI data from videos
+
+- I import all libraries
+- Construct the headers
+- Define the KPIs that I want to get (likes, dislikes, views, etc.)
+- I created a Data Frame to manipulate the information
