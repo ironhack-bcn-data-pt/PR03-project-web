@@ -11,12 +11,12 @@
   <img width="387" height="83" src="src/protectora.jpg">
 </p>
 
-   *Choose an adoptable dog, figure out the best place for her/him to live!*
+   *Choose a dog to adopt and find out the best location for her/him!*
 
 
 ## Overview
 
-The goal of this project is to understand what would be the **best home**for a **dog adopted** by the kennel of Barcelona, based on its square mts .
+The goal of this project is to understand what would be the **best home**for a **dog adopted** by the kennel of Barcelona, based some characteristics of the place where it'll go to live(square mts, presence of terrace/garden...).
 
 
 ---
@@ -25,8 +25,8 @@ The goal of this project is to understand what would be the **best home**for a *
 
 
 * **web_scraping.ipynb** Jupyter notebook that contains the code to scrape the page of the 'protectora de Barcelona'.
-* **api.ipynb** Jupyter notebook that contains the code to scrape the api of idealista.
-* **datasets.ipynb** Jupyter notebook that contains the merged results from the web scrapping and the api investigation.
+* **api.ipynb** Jupyter notebook that contains the code to scrape the API of idealista.
+* **home_sweet_home.ipynb** Jupyter notebook that contains the results from the web scrapping and the API investigation.
 * **output** Folder that contains the cleaned datasets and the output of my data pipeline.
 * **src** Images and resources.
 
@@ -41,25 +41,28 @@ The goal of this project is to understand what would be the **best home**for a *
 * Creating a dataframe
 
 ## Setbacks
-* Extracting information from different URLs
+* Extracting information from different pages
 * Concatenating different dataframes
 
 
 ## 2.:house_with_garden: API idealista
 
-* I chose the API of **idealista** to find the sqm of the flats/houses in Barcelona
+* I chose the API of **idealista** to find some characteristics of the houses in Barcelona
 
 ## Objectives
-* Using the API to retrieve information about the sqm of the flats/houses in Barcelona.
+* Using the API to retrieve information about the sqm of the flats/houses in Barcelona(square mts, presence of terrace/garden...).
 * Extracting and organising the information
 * Creating a dataframe
 
 ## Setbacks
 * Problems with authentication (tricky stuff)
+* Problems with the number of accesses --> API blocked! \o/
+
+--> Project in PROGRESS: waiting for new credentials to use the API
 
 ## 3.:dog:+:house_with_garden: Merging dataframes
 
-* Final analysis: which is the best home for an adoptable dog based on its size and the sqm of the place where it'll go to live?
+* Final analysis: Which is the best home for a dog on adoption based on its size and some characteristics of the place where it'll go to live(square mts, presence of terrace/garden...)?
 
 ## Objectives
 * Merging dataframes using the dog size.
