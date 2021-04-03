@@ -1,0 +1,38 @@
+
+# API & Web Data Scraping
+
+## Harry Potter
+ 
+Mi idea inicial de este proyecto era realizar un web scrapping para sacar información acerca de movie locations y analizzar una api de la misma temática, ya que mi idea era realizar el proyecto final sobre esto (puede que al final lo acabe haciendo de otra cosa). 
+Para ello hice un "scrapping" de las film locations de harry potter que aparecen en la wiki.
+
+Conseguí sacar un mini datarframe donde aparecía la información de las 17 locations: 
+
+- La "location"
+- La "Address" 
+- La descripción 
+
+Mi idea era también sacar la info referente a los links, pero por desgracia no todas las 17 ubicaciones tienen el mismo tipo de link, algunas tienen un link externo, otras el link de wiki.voyage y otras el link de la wiki, conseguí sacar las listas por separado de estos links pero no integrarlos en el data frame. 
+
+La idea hubiese sido también sacar info de una api, pero al no encontrar ninguna pública, he decidido sacar info de una api pública: 
+
+## Cocktails: 
+
+En la api que he trabajado puedes sacar varios dataframes de cocktails, filtrados por la letra con la que empieza su nombre. He obtenido un dataframe con los cocktails que empiezan por a,b,c,d (todos juntos en un mismo data frame). Con el código que he escrito podríamos sacar un dataframe con todas (solo habría que ampliar el listado de "letras"). He puesto un tiempo de sleep de 3 segundos, para que el "loop" lo haga poco a poco.
+
+He guardado el resultado en un dataframe el cuál habría ahora que limpiar. 
+
+
+## Sant Jordi 
+
+Dado que en breve celebraremos Sant Jorddi (o eso espero) he pensado que sería interesante saber que libros nuevos se han publicado en Catalàn.  
+
+He entrado en una web de libros y he entrado en el apartado: "Novedades en catalàn". De ahí he sacado el listado de libros de 7 categorías distintas y he extraído un dataframe con el título, autor y categoría. 
+
+Me hubiese gustado sacar el listado de precios, pero no ha sido posible, ya que creo que está como "oculto". 
+
+## Metodología 
+
+Para los dos proyectos de scraping he utilizado Beautiful Soup.
+Para el proyecto de apis he utilizado json.normalize() y he hecho un intento de mini clase. 
+
