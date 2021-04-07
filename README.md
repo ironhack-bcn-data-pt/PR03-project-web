@@ -1,65 +1,59 @@
 ![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
-# Guided Project: API and Web Data Scraping
+# Proyecto 03: API and Web Data Scraping
 
-## Overview
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
+## 1. Objetivo.
 
----
+En este proyecto he querido contestar dos simples preguntas:
 
-## Technical Requirements
+- En qué provincias de la España peninsular hay los mejores puertos de montaña para el ciclismo?
+- En qué época es más benigno el clima de cada provincia?
 
-The technical requirements for this project are as follows:
+Para dar respuesta a la primera pregunta necesitaré conocer cuál es la media de dureza para los puertos en cada provincia, así como su desnivel y cota final. Este proceso será conducido mediante el uso de web scraping con una conocida web que recopila los datos de todos los puertos de España, para posteriormente plasmarlos en un dataframe que nos permitirá sacar conclusiones de manera rápida y visual.
 
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
+Para contestar a la segunda pregunta usaré web scraping mediante Selenium para conseguir un completo resumen climatológico de cada provincia cogiendo como referencia su capital.
 
-## Necessary Deliverables
 
-The following deliverables should be pushed to your Github repo for this chapter.
+## 2. Planificación.
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
+Para obtener los datos de los puertos de montaña españoles se ha usado el exhaustivo catálogo de la web www.altimetrias.net, que posteriormente fueron agrupados por provincia (obteniendo las medias de cada una de ellas) y cuyo resultado ha sido exportado como csv para su posterior análisis.
 
-## Suggested Ways to Get Started
+En cuanto a la meteorología los datos han sido extraídos de los detallados informes realizados por la web www.es.weatherspark.com, que nos proporciona resúmenes meteorológicos para cada capital de provincia.
 
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+En base a estos datos se ha decidido cuál es la mejor provincia para los puertos de montaña y en qué época contaremos con la mejor meteo.
 
-## Useful Resources
 
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+## 3. Métodos empleados.
 
-## Project Feedback + Evaluation
+Para el scraping de las altimetrías se ha utilizado **BeautifulSoup**, definiendo una función que nos generase un diccionario con los datos de cada puerto de España. Posteriormente se ha recurrido a **Pandas** para crear un dataframe que agrupara todos los diccionarios, lo cual nos facilita enormemente trabajar con los datos.
+Después de limpiar el dataframe se han agrupado los puertos por provincia, obteniendo un DF mucho más compacto desde el que sacar conclusiones. 
 
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
+A la hora de obtener los datos meteorológicos de Weatherspark se ha optado por usar **Selenium** ya que permitía ejecutar una búsqueda para cada capital de provincia y acceder al HTML conteniendo su resumen meteorológico. Usando **Regex** se ha podido obtener cada parte del resumen meteorológico, asignándolo a un diccionario junto con el nombre de la capital correspondiente.
+Para obtener los datos de todas las provincias ha sido creada una función que generaba el diccionario meteorológico simplemente con pasarle como argumento la capital de provincia deseada. Posteriormente se ha pasado cada ciudad a la función para obtener un dataframe en el que asociaba cada provincia a su meteorología. 
 
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
+Finalmente para data visualization se han creado varios mapas usando la librería **Folium**.
+He buscado un archivo *geojson* con las provincias españolas para usar como base, del cual he obtenido los nombres que usaba internamente para denominar cada provincia. Para poder asignar correctamente cada área del mapa a los valores del dataframe ha sido necesario cambiar los nombres de este último a los presentes en el archivo *geojson*, así como la asignación con valores nulos a los elementos faltantes del mapa (de lo contrario aparecen con valores máximos de forma artificial).
+Una vez definidos los parámetros, capa base y colores para el mapa *choropleth* es muy simple cambiar los datos que representa así como la leyenda, pudiendo crear diferentes mapas con el mismo dataframe en cuestión de segundos.
 
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
 
-* __Total__: Your instructors will give you a total score on your project between:
+## 4. Problemas encontrados.
 
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectactions, good job!
-    2|Exceeds expectations, you wonderful creature, you!
+**Scraping altimetrías:** la web se basa extensivamente en tablas a las cuales he tenido que acceder por índice a base de trial and error. Algunos puertos estaban duplicados y otras páginas estaban vacías, por lo que ha sido necesario usar data cleaning para lo primero y *try/except* para lo segundo.
 
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
+**Scraping meteo:** muchas ciudades españolas tienen su hermana en Cuba/México/Colombia y en mis primeros intentos la meteorología de algunas provincias parecía ser extrañamente tropical. El error pudo ser solventado añadiendo *España* a los keystrokes para cada búsqueda.
+Selenium puede ser muy temperamental cuando entran las cookies en la ecuación, es difícil que el código funcione correctamente a la primera en todas las ocasiones. 
 
+**Creación de mapas:** encontrar un archivo *geojson* válido ha sido un problema bastante importante. También lo ha sido pasar los nombres de provincias al mismo formato que usa el archivo, ya que tanto la *ñ* como los acentos corrompían el topónimo. 
+
+
+## 5. Futuras mejoras.
+
+Sería muy interesante crear un mapa interactivo con todos los puertos, en el que haciendo click en cada uno de ellos pudiéramos ver su altimetría. El principal problema sería conseguir las coordenadas de inicio y final, ya que no todas las ascensiones empiezan o acaban en lugares con claras referencias topográficas.
+
+
+## 6. Archivos adicionales.
+
+Para ejecutar correctamente el código es necesario tener el webdriver adecuado para el navegador que se esté utilizando, en este caso he incluido el de Chrome.
+Si se quiere generar un mapa mediante *Selenium* será necesario descargar el archivo *provincias.geojson* y tenerlo en el mismo directorio que el código.
