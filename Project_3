@@ -3,7 +3,7 @@
 
 ## Harry Potter
  
-Mi idea inicial de este proyecto era realizar un web scrapping para sacar información acerca de movie locations y analizzar una api de la misma temática, ya que mi idea era realizar el proyecto final sobre esto (puede que al final lo acabe haciendo de otra cosa). 
+Mi idea inicial de este proyecto era realizar un web scrapping para sacar información acerca de movie locations y analizar una api de la misma temática, ya que mi idea era realizar el proyecto final sobre esto (puede que al final lo acabe haciendo de otra cosa). 
 Para ello hice un "scrapping" de las film locations de harry potter que aparecen en la wiki.
 
 Conseguí sacar un mini datarframe donde aparecía la información de las 17 locations: 
@@ -18,7 +18,7 @@ La idea hubiese sido también sacar info de una api, pero al no encontrar ningun
 
 ## Cocktails: 
 
-En la api que he trabajado puedes sacar varios dataframes de cocktails, filtrados por la letra con la que empieza su nombre. He obtenido un dataframe con los cocktails que empiezan por a,b,c,d (todos juntos en un mismo data frame). Con el código que he escrito podríamos sacar un dataframe con todas (solo habría que ampliar el listado de "letras"). He puesto un tiempo de sleep de 3 segundos, para que el "loop" lo haga poco a poco.
+En la api que he trabajado puedes sacar varios dataframes de cocktails, filtrados por la letra con la que empieza su nombre. He obtenido un dataframe con los cocktails ordenados por orden de abecedario (en un mismo data frame). 
 
 He guardado el resultado en un dataframe el cuál habría ahora que limpiar. 
 
