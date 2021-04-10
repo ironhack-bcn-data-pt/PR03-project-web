@@ -4,15 +4,15 @@
 
 ## Overview
 
-El objetivo de este proyecto es el scrapeo de broker online DEGIRO. La plataforma DEGIRO es la que mejores comisiones tiene del mercado, pero la información disponible de sus productos es muy pobre y la interfaz poco amigable.
+El objetivo de este proyecto es el scrapeo del broker online DEGIRO. La plataforma DEGIRO es la que mejores comisiones tiene del mercado, pero la información disponible de sus productos es muy pobre y la interfaz poco amigable.
 
-El Objetivo del proyecto es Scrapear de DEGIRO todos los productos financieros que ofrezca: acciones, bonos, fondos de inversión y etfs. En este proyecto nos centraremos en cruzar los etfs de DEGIRO con los de la web justETF para obtener toda la información finaciera pertienente a estos productos. Todos los productos financieros cuentan con un identificador único llamado ISIN, que es lo que se usará para cruzar la información entre plataformas. 
+El objetivo del proyecto es el scrapeotodos los productos financieros que ofrece de DEGIRO : acciones, bonos, fondos de inversión y etfs. En este proyecto nos centraremos en cruzar los etfs de DEGIRO con los de la web justETF para obtener toda la información finaciera pertinente a estos productos. Todos los productos financieros cuentan con un identificador único llamado ISIN, que es lo que se usará para cruzar la información entre plataformas. 
 
 ---
 
 ## DEGIRO
 
-El scrapeo de DEGIRO se ha hecho mediante la API interna que utiliza el broker para solicitar la información de sus productos a su servidor. Esta API retorna un JSON con toda la información pertinente. En la URL se especifica el tipo de producto, el numero de cuenta del usuario y un codigo identificador de la sesión iniciada.
+El scrapeo de DEGIRO se ha hecho mediante la API interna que utiliza el broker para solicitar la información de sus productos a su servidor. Esta API retorna un JSON con toda la información disponible. En la URL se especifica el tipo de producto, el numero de cuenta del usuario y un codigo identificador de la sesión iniciada. Cabe mencionar que este último se ha de introducir manualmente por el usuario cada vez que se ejecuta el programa, ya que cambia con cada login.
 
 Además, aunque realmente no es necesario, el user-agent que se utiliza en cada request se selecciona de manera aleatoria de una lista de 1000 de un archivo de texto. También se especifica en el header un referer según que tipo de producto se scrapee. Por último, también se especifican otra serie de request headers que la web de DEGIRO pide. 
 
@@ -26,9 +26,9 @@ Los datos seleccionados son solo una muestra de los que la web ofrece, hay al me
 
 ## Cruce de Datos
 
-Para realizar el cruce de datos de los ETFs de DEGIRO con la información de la web de justETF lo primero que se ha hecho es limpiar los valores vacion de justETF y sustituirlos por NaNs. Seguidamente se convierten los datos numéricos que se encuentran en strings a número. Del total de etfs de DEGIRO se han eliminado todas las que tengan su ISIN duplicado, y se han cruzado con los de justETF, mediante un inner join. 
+Para realizar el cruce de datos de los ETFs de DEGIRO con la información de la web de justETF lo primero que se ha hecho es limpiar los valores vacios de justETF y sustituirlos por NaNs. Seguidamente se convierten los datos numéricos que se encuentran en strings a número. Del total de etfs de DEGIRO se han eliminado todas las que tengan su ISIN duplicado, y se han cruzado con los de justETF, mediante un inner join. 
 
 ## Cosas a mejorar
 
-Tuve muchos problemas con la ejecución de comandos que se realizaban antes de que la página terminase de cargar. Los tiempos de espera en Selenium se han hecho mediante la función time.sleep(), lo cual es matar moscas a cañonazos. Las funciones previstas en Selenium para esto de Explicit Wait y de Implicit Wait, no fui capaz de aplicarlas de manera exitosa. Conceptualmente no termino de entender que es lo que hacen.
+Tuve muchos problemas con la ejecución de comandos que se realizaban antes de que la página terminase de cargar. Los tiempos de espera en Selenium se han hecho mediante la función time.sleep(), lo que es matar moscas a cañonazos. Las funciones previstas en Selenium para esto de Explicit Wait y de Implicit Wait, no fui capaz de aplicarlas de manera exitosa. Conceptualmente no termino de entender que es lo que hacen.
 
