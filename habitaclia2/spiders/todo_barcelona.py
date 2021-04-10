@@ -16,12 +16,8 @@ class TodoBarcelonaSpider(CrawlSpider):
 
     def parse_item(self, response):
         for article in response.xpath('/html/body/main/section/div/section[1]/article'):
-            #price = article.xpath('.//div/div/section[2]/article/span[@itemprop = "price"]/text()').get()  
-            #title = article.xpath('.//div/div/section[1]/h3/a/text()').get()
-            link_access = article.xpath('.//div/div/section[1]/h3/a/@href').extract()
-
             
-            yield {"Link" : link}
+            link_access = article.xpath('.//div/div/section[1]/h3/a/@href').extract()
             yield scrapy.Request(link_access[0], callback=self.parse_flat)
 
 
@@ -33,7 +29,7 @@ class TodoBarcelonaSpider(CrawlSpider):
         habitaciones = response.xpath('.//div/div/article[2]/ul/li[2]/strong/text()').get()
         baños = response.xpath('.//div/div/article[2]/ul/li[3]/strong/text()').get()
         parking = response.xpath('//section[4]/div/article[3]/ul/li[contains(text(),"parking")]/text()').get()
-        link = response.xpath('./html/head/meta[16]').get()
+        link = response.url
 
-        yield {"Título": title, "Zona": zona, "Precio": price, "M2": m2, "Habitaciones" : habitaciones, "Baños": baños, "Parking": parking, "Link" : response.url}
+        yield {"Título": title, "Zona": zona, "Precio": price, "M2": m2, "Habitaciones" : habitaciones, "Baños": baños, "Parking": parking, "Link" : link}
 

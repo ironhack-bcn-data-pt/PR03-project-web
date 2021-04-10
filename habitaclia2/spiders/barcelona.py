@@ -12,12 +12,10 @@ class BarcelonaSpider(scrapy.Spider):
 
     def parse(self, response):
         for article in response.xpath('/html/body/main/section/div/section[1]/article'):
-            #price = article.xpath('.//div/div/section[2]/article/span[@itemprop = "price"]/text()').get()  
-            #title = article.xpath('.//div/div/section[1]/h3/a/text()').get()
+            
             link_access = article.xpath('.//div/div/section[1]/h3/a/@href').extract()
 
             
-            #yield {"Precio": price, "Title": title, "Link" : link}
             yield scrapy.Request(link_access[0], callback=self.parse_flat)
 
 

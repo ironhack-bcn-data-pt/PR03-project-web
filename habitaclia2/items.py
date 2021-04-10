@@ -21,4 +21,10 @@ class Habitaclia2Item(scrapy.Item):
     detalles_generales = scrapy.Field()
     estadisticas = scrapy.Field()
     location = scrapy.Field()
+    terraza = scrapy.Field()
+    find_coords = scrapy.Field()
+    coords = scrapy.Field()
+    coordenadas = scrapy.Field()
+    lat = scrapy.Field()
+    lng = scrapy.Field()
 
