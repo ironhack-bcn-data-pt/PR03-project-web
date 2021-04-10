@@ -6,7 +6,7 @@
 
 El objetivo de este proyecto es el scrapeo del broker online DEGIRO. La plataforma DEGIRO es la que mejores comisiones tiene del mercado, pero la información disponible de sus productos es muy pobre y la interfaz poco amigable.
 
-El objetivo del proyecto es el scrapeotodos los productos financieros que ofrece de DEGIRO : acciones, bonos, fondos de inversión y etfs. En este proyecto nos centraremos en cruzar los etfs de DEGIRO con los de la web justETF para obtener toda la información finaciera pertinente a estos productos. Todos los productos financieros cuentan con un identificador único llamado ISIN, que es lo que se usará para cruzar la información entre plataformas. 
+El objetivo del proyecto es el scrapeo de todos los productos financieros que ofrece de DEGIRO : acciones, bonos, fondos de inversión y etfs. En este proyecto nos centraremos en cruzar los etfs de DEGIRO con los de la web justETF para obtener toda la información finaciera pertinente a estos productos. Todos los productos financieros cuentan con un identificador único llamado ISIN, que es lo que se usará para cruzar la información entre plataformas. 
 
 ---
 
