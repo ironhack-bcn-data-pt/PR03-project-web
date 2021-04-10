@@ -4,62 +4,31 @@
 
 ## Overview
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
+El objetivo de este proyecto es el scrapeo de broker online DEGIRO. La plataforma DEGIRO es la que mejores comisiones tiene del mercado, pero la información disponible de sus productos es muy pobre y la interfaz poco amigable.
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
+El Objetivo del proyecto es Scrapear de DEGIRO todos los productos financieros que ofrezca: acciones, bonos, fondos de inversión y etfs. En este proyecto nos centraremos en cruzar los etfs de DEGIRO con los de la web justETF para obtener toda la información finaciera pertienente a estos productos. Todos los productos financieros cuentan con un identificador único llamado ISIN, que es lo que se usará para cruzar la información entre plataformas. 
 
 ---
 
-## Technical Requirements
+## DEGIRO
 
-The technical requirements for this project are as follows:
+El scrapeo de DEGIRO se ha hecho mediante la API interna que utiliza el broker para solicitar la información de sus productos a su servidor. Esta API retorna un JSON con toda la información pertinente. En la URL se especifica el tipo de producto, el numero de cuenta del usuario y un codigo identificador de la sesión iniciada.
 
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
+Además, aunque realmente no es necesario, el user-agent que se utiliza en cada request se selecciona de manera aleatoria de una lista de 1000 de un archivo de texto. También se especifica en el header un referer según que tipo de producto se scrapee. Por último, también se especifican otra serie de request headers que la web de DEGIRO pide. 
 
-## Necessary Deliverables
+La información extraida se trata con la libreria BeautifulSoup, se parsea y se convierte en un DataFrame que se exporta como un csv. Se han creado 4 archivos csv: stocks.csv, bonds.csv, etfs.csv y funds.csv. Los archivos NO han sido limpiados.
 
-The following deliverables should be pushed to your Github repo for this chapter.
+## JustETFs
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
+Para el scrapeo de la web JustETFs se ha utilizado Selenium para simular la acción de un usuario sobre un navegador. Se han seleccionado todos los campos que han parecido mas relevantes sobre los ETFs y que muestre 100 resultados por página. La información se ha vuelto a parsear mediante la libreria BeautifulSoup, y de la misma manera que antes, se ha convertido en un DataFrame y exportado como un csv llamado justETFs.csv
 
-## Suggested Ways to Get Started
+Los datos seleccionados son solo una muestra de los que la web ofrece, hay al menos 15 más que se pueden seleccionar si el usuario así lo cree necesario. Como antes, tampoco se han limpiado los datos exportados.
 
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+## Cruce de Datos
 
-## Useful Resources
+Para realizar el cruce de datos de los ETFs de DEGIRO con la información de la web de justETF lo primero que se ha hecho es limpiar los valores vacion de justETF y sustituirlos por NaNs. Seguidamente se convierten los datos numéricos que se encuentran en strings a número. Del total de etfs de DEGIRO se han eliminado todas las que tengan su ISIN duplicado, y se han cruzado con los de justETF, mediante un inner join. 
 
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+## Cosas a mejorar
 
-## Project Feedback + Evaluation
-
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
-
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
-
-* __Total__: Your instructors will give you a total score on your project between:
-
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectactions, good job!
-    2|Exceeds expectations, you wonderful creature, you!
-
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
+Tuve muchos problemas con la ejecución de comandos que se realizaban antes de que la página terminase de cargar. Los tiempos de espera en Selenium se han hecho mediante la función time.sleep(), lo cual es matar moscas a cañonazos. Las funciones previstas en Selenium para esto de Explicit Wait y de Implicit Wait, no fui capaz de aplicarlas de manera exitosa. Conceptualmente no termino de entender que es lo que hacen.
 
