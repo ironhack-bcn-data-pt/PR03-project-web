@@ -1,16 +1,49 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+﻿![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
 # Guided Project: API and Web Data Scraping
 
 ## Overview
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
+El objetivo de este proyecto era el tener que practicar lo que ha aprendido en las clases de API y Web Scraping de este curso. Para este proyecto, he tenido que escoger tanto una API para obtener datos como una página web para escrapear. Para la parte API del proyecto, debía realizar llamadas a la API elegida, obtener una respuesta, solicitar datos, convertirlos en un dataframe de Pandas y exportarlos como un archivo CSV. Para la parte de raspado web del proyecto, debía raspar el HTML de la página elegida, analizar el HTML para extraer la información necesaria y guardar los resultados en un archivo de texto (txt) si es texto o en un CSV archivo si se trata de datos tabulares.
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
+## Parte I: API
 
----
+### API escogida y el porqué de la elección
 
-## Technical Requirements
+* La API con la que he decidido trabajar es [Socrata] (https://dev.socrata.com/) una API especializada en datos abiertos de gobiernos. En mi caso necesitaba trabajar con ella puesto que el dataset que deseo obtener esta así gestionada.
+
+* La elección de este dataset se basa en la idea de utilizarla más adelante (en el proyecto final). El dataset contiene un registro de todas las ofertas de empleo público de Cataluña desde finales del 2001.
+
+### Trabajar con la API
+
+* Tras localizar la página web donde se encontraba la API con los datos [analisi.transparenciacatalunya.cat] (https://analisi.transparenciacatalunya.cat/Treball/Convocat-ries-de-Personal/a2hm-uzyj) procedo a leer la [documentación de la API] (https://dev.socrata.com/foundry/analisi.transparenciacatalunya.cat/a2hm-uzyj) para encontrar el método de conectar con ella y hacer un get para obtener el dataset. 
+
+*En Code Snippets encuentro un apartado de “Python Pandas” con dos formas de acceder a los datos:
+. Mediante un cliente no autenticado: lo cual me avisa que puede conllevar restricciones de acceso
+. Mediante cliente autenticado: acceso sin restricciones.
+Decido acceder mediante la segunda opción y para ello, me creo una cuenta para obtener una contraseña y un token.
+
+*Accediendo a los datos mediante código sugerido para Python Pandas:
+.Importo sodapy de la librería Socrata y accedo a la información con método Socrata y los siguientes parámetros: (‘url’,token,username,password)
+.Utilizo el método de Socrata client.get y amplio el límite a 70000 registros. Obtengo un json llamado “results”
+
+*Convertir json en un dataframe de Pandas: Convierto el json en un dataframe utilizando pd.json_normalize
+
+
+*Problema encontrado: la documentación me sugería un método concreto de pandas “pd.DataFrame.from_records” pero el resultado era una dataframe con celdas con listas. Para evitar esto he decidido utilizar el método anteriormente comentado.
+
+*Exportar dataframe a csv en carpeta output.
+
+## Parte II: Web Data Scraping 
+
+### Web escogida y el porqué de la elección
+
+* Decido scrapear la web de [biwenger.as.com] (https://biwenger.as.com/) que proporciona el entorno para jugar a una liga fantasy de la NBA. Esta es una web donde un grupo de jugadores crear sus equipos de la nba para competir entre ellos durante la temporada. 
+
+* El motivo de la elección es la de desarrollar un asistente de fichajes y ventas a partir de predicciones estadísticas reales aportadas por la web [FiveThirtyEight] (https://projects.fivethirtyeight.com/).
+
+### Obtención de la url con el dataset de predicciones por jugador (RAPTOR) de la FiveThirtyEight.
+
 
 The technical requirements for this project are as follows:
 
