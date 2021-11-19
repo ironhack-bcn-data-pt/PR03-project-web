@@ -30,5 +30,8 @@ I store the results from the google api on collection.csv, and the results from 
 
 With all the information collected i created a boardgame recommender which takes some inputs from the user and chooses a game that matches the criteria (and shows all the information retrieved that is available: image, link to buy, and review).
 
+# URL presentation
+
+https://slides.com/gerarddomenechdomingo/project-03/
 
 
