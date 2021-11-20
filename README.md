@@ -1,6 +1,15 @@
 ﻿![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
-# Guided Project: API and Web Data Scraping
+# Project: API and Web Data Scraping
+*[Carlos Romero]*	
+
+*[DATA PT SEP 2021, Ironhack Barcelona 2021-11-20]*
+
+## Content
+- [Overview](#overview)
+- [Parte I: API](#parte-i:-api)
+- [Parte II: Web Data Scraping](#parte-ii:-web-data-scraping)
+- [Links](#links)
 
 ## Overview
 
@@ -45,54 +54,41 @@ Decido acceder mediante la segunda opción y para ello, me creo una cuenta para 
 ### Obtención de la url con el dataset de predicciones por jugador (RAPTOR) de la FiveThirtyEight.
 
 
-The technical requirements for this project are as follows:
+* En la página web FiveThirtyEight.com descubro unas métricas que calculan la proyección de cada jugador de la NBA y que se actualiza cada día en función de su rendimiento. A estos algoritmos los llaman [RAPTOR] (https://fivethirtyeight.com/features/introducing-raptor-our-new-metric-for-the-modern-nba/). Como referencia de valor de predicción decido extraer el valor de tres métricas diferentes y hacer la media. Las métricas seleccionads son las siguientes:
+. war_reg_season: “Wins Above Replacement for regular season”
+. raptor_total: “Points above average per 100 possessions added by player on both offense and defense, using both box and on-off components “
+. predator_total: “Predictive points above average per 100 possessions added by player on both offense and defense”
 
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
+* Para disponer de los datos la página web me enlzae a un repositorio de github público donde puedo extraer diariamente la información mediante csv. Escribo la llamada y lo transformo en un dataframe llamado df_prediccion
 
-## Necessary Deliverables
+### Escrapear para importar datos de mi equipo y mercado
 
-The following deliverables should be pushed to your Github repo for this chapter.
+* Preparar conexión con selenium: sigo los pasos que nos enseñaron en clase para poder conectarme a la página web mediante selenium. He escogido esta librería porque la [web a escrapear] (https://biwenger.as.com/) solicita al usuario la realización de acciones con el ratón.
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
+* Hacer login para entrar en mi cuenta: necesito loguearme para acceder a la información de mi cuenta. Se ha decidido hacer visible el username (mi email) y no visible los passwords (en ficheros txts separados).
 
-## Suggested Ways to Get Started
+* Ordenar acciones que la web solicita para acceder a la información. En este caso las acciones a programas son las siguientes.
+. Aceptar cookies
+. Navegar hasta la sección donde se encuentra la información (/team y /market).
+. Hacer scroll y esperar para acceder sin problemas.
+. Seleccionar formato tabular para escrapear más fácilmente.
 
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
+* Escrapear: 
+. Para información de mi equipo se ordena un for loop que me vaya generando diccionarios para cada jugador con su posición, su nombre y su valor. Estos diccionarios se almacenan en una lista.
+. Para información del mercado se ordena un for loop que me vaya generando diccionarios para cada jugador con su posición, su nombre, su estado físico y su valor. Estos diccionarios se almacenan en una lista.
 
-## Useful Resources
+* Transformar a dataframes: Transformo las listas de diccionarios obtenidas en dataframes de nombre: df_equipo y df_mercado.
 
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+### Analisis de la información extraida
+. Relaciono las dataframes de biwinger con la df_predicción mediante método merge.
+. Manipulo los dataframes resultantes para incluir un campo de confianza de la predicción. La confianza en la predicción se basa en los minutos jugados por cada jugador en proporción a los minutos máximos que éste podría haber jugado. Se hace este cálculo porque las predicciones se basan en el rendimiento de cada jugador durante los minutos jugados y, por tanto, cuanto más minutos haya jugado más fiable será la predicción.
+. Ordeno cada dataframe según el siguiente criterio: 
+- dataframe de mis jugadores: de menor a mayor valor de proyección.
+- dataframe del mercado: de mayor a menor valor de proyección.
+. Visualizo y exporto en un csv los dataframe finales llamados: rank_jugadores_vendibles y rank_jugadores_fichables
 
-## Project Feedback + Evaluation
 
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
-
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
-
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
-
-* __Total__: Your instructors will give you a total score on your project between:
-
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectactions, good job!
-    2|Exceeds expectations, you wonderful creature, you!
-
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
-
+## Links
+* [Repository](https://github.com/ironhack-bcn-data-pt/PR03-project-web/pull/21)
+* [Slides in html](https://drive.google.com/file/d/11GF9rY45Dw5JZid8D9XjCogDO4tyTOAD/view?usp=sharing)
+* [Slide in pdf](https://drive.google.com/file/d/11QNCC8VOb4Af3GMiBiNnpzjgJ8NOJIVS/view)
