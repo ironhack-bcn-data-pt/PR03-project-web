@@ -1,65 +1,92 @@
-![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
+﻿![IronHack Logo](https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/upload_d5c5793015fec3be28a63c4fa3dd4d55.png)
 
-# Guided Project: API and Web Data Scraping
+# Project: API and Web Data Scraping
+*[Carlos Romero]*	
+
+*[DATA PT SEP 2021, Ironhack Barcelona 2021-11-20]*
+
+## Content
+- [Overview](#overview)
+- [Parte I: API](#parte-i:-api)
+- [Parte II: Web Data Scraping](#parte-ii:-web-data-scraping)
+- [Links](#links)
 
 ## Overview
 
-The goal of this project is for you to practice what you have learned in the APIs and Web Scraping chapter of this program. For this project, you will choose both an API to obtain data from and a web page to scrape. For the API portion of the project will need to make calls to your chosen API, successfully obtain a response, request data, convert it into a Pandas data frame, and export it as a CSV file. For the web scraping portion of the project, you will need to scrape the HTML from your chosen page, parse the HTML to extract the necessary information, and either save the results to a text (txt) file if it is text or into a CSV file if it is tabular data.
+El objetivo de este proyecto era el tener que practicar lo que ha aprendido en las clases de API y Web Scraping de este curso. Para este proyecto, he tenido que escoger tanto una API para obtener datos como una página web para escrapear. Para la parte API del proyecto, debía realizar llamadas a la API elegida, obtener una respuesta, solicitar datos, convertirlos en un dataframe de Pandas y exportarlos como un archivo CSV. Para la parte de raspado web del proyecto, debía raspar el HTML de la página elegida, analizar el HTML para extraer la información necesaria y guardar los resultados en un archivo de texto (txt) si es texto o en un CSV archivo si se trata de datos tabulares.
 
-**You will be working individually for this project**, but we'll be guiding you along the process and helping you as you go. Show us what you've got!
+## Parte I: API
 
----
+### API escogida y el porqué de la elección
 
-## Technical Requirements
+* La API con la que he decidido trabajar es [Socrata] (https://dev.socrata.com/) una API especializada en datos abiertos de gobiernos. En mi caso necesitaba trabajar con ella puesto que el dataset que deseo obtener esta así gestionada.
 
-The technical requirements for this project are as follows:
+* La elección de este dataset se basa en la idea de utilizarla más adelante (en el proyecto final). El dataset contiene un registro de todas las ofertas de empleo público de Cataluña desde finales del 2001.
 
-* You must obtain data from an API using Python.
-* You must scrape and clean HTML from a web page using Python.
-* The results should be two files - one containing the tabular results of your API request and the other containing the results of your web page scrape.
-* Your code should be saved in a Jupyter Notebook and your results should be saved in a folder named output.
-* You should include a README.md file that describes the steps you took and your thought process for obtaining data from the API and web page.
+### Trabajar con la API
 
-## Necessary Deliverables
+* Tras localizar la página web donde se encontraba la API con los datos [analisi.transparenciacatalunya.cat] (https://analisi.transparenciacatalunya.cat/Treball/Convocat-ries-de-Personal/a2hm-uzyj) procedo a leer la [documentación de la API] (https://dev.socrata.com/foundry/analisi.transparenciacatalunya.cat/a2hm-uzyj) para encontrar el método de conectar con ella y hacer un get para obtener el dataset. 
 
-The following deliverables should be pushed to your Github repo for this chapter.
+* En Code Snippets encuentro un apartado de “Python Pandas” con dos formas de acceder a los datos:
+- Mediante un cliente no autenticado: lo cual me avisa que puede conllevar restricciones de acceso
+- Mediante cliente autenticado: acceso sin restricciones.
+Decido acceder mediante la segunda opción y para ello, me creo una cuenta para obtener una contraseña y un token.
 
-* **A Jupyter Notebook (.ipynb) file** that contains the code used to work with your API and scrape your web page.
-* **An output folder** containing the outputs of your API and scraping efforts.
-* **A ``README.md`` file** containing a detailed explanation of your approach and code for retrieving data from the API and scraping the web page as well as your results, obstacles encountered, and lessons learned.
+* Accediendo a los datos mediante código sugerido para Python Pandas:
+- Importo sodapy de la librería Socrata y accedo a la información con método Socrata y los siguientes parámetros: (‘url’,token,username,password)
+- Utilizo el método de Socrata client.get y amplio el límite a 70000 registros. Obtengo un json llamado “results”
 
-## Suggested Ways to Get Started
+* Convertir json en un dataframe de Pandas: Convierto el json en un dataframe utilizando pd.json_normalize
 
-* **Find an API to work with** - a great place to start looking would be [API List](https://apilist.fun/) and [Public APIs](https://github.com/toddmotto/public-apis). If you need authorization for your chosen API, make sure to give yourself enough time for the service to review and accept your application. Have a couple back-up APIs chosen just in case!
-* **Find a web page to scrape** and determine the content you would like to scrape from it - blogs and news sites are typically good candidates for scraping text content, and [Wikipedia](https://www.wikipedia.org/) is usually a good source for HTML tables (search for "list of...").
-* **Break the project down into different steps** - note the steps covered in the API and web scraping lessons, try to follow them, and make adjustments as you encounter the obstacles that are inevitable due to all APIs and web pages being different.
-* **Use the tools in your tool kit** - your knowledge of intermediate Python as well as some of the things you've learned in previous chapters. This is a great way to start tying everything you've learned together!
-* **Work through the lessons in class** & ask questions when you need to! Think about adding relevant code to your project each night, instead of, you know... _procrastinating_.
-* **Commit early, commit often**, don’t be afraid of doing something incorrectly because you can always roll back to a previous version.
-* **Consult documentation and resources provided** to better understand the tools you are using and how to accomplish what you want.
 
-## Useful Resources
+* Problema encontrado: la documentación me sugería un método concreto de pandas “pd.DataFrame.from_records” pero el resultado era una dataframe con celdas con listas. Para evitar esto he decidido utilizar el método anteriormente comentado.
 
-* [Requests Library Documentation: Quickstart](http://docs.python-requests.org/en/master/user/quickstart/)
-* [BeautifulSoup Documentation](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
-* [Stack Overflow Python Requests Questions](https://stackoverflow.com/questions/tagged/python-requests)
-* [StackOverflow BeautifulSoup Questions](https://stackoverflow.com/questions/tagged/beautifulsoup)
+* Exportar dataframe a csv en carpeta output.
 
-## Project Feedback + Evaluation
+## Parte II: Web Data Scraping 
 
-* __Technical Requirements__: Did you deliver a project that met all the technical requirements? Given what the class has covered so far, did you build something that was reasonably complex?
+### Web escogida y el porqué de la elección
 
-* __Creativity__: Did you add a personal spin or creative element into your project submission? Did you incorporate domain knowledge or unique perspective into your analysis.
+* Decido scrapear la web de [biwenger.as.com] (https://biwenger.as.com/) que proporciona el entorno para jugar a una liga fantasy de la NBA. Esta es una web donde un grupo de jugadores crear sus equipos de la nba para competir entre ellos durante la temporada. 
 
-* __Code Quality__: Did you follow code style guidance and best practices covered in class?
+* El motivo de la elección es la de desarrollar un asistente de fichajes y ventas a partir de predicciones estadísticas reales aportadas por la web [FiveThirtyEight] (https://projects.fivethirtyeight.com/).
 
-* __Total__: Your instructors will give you a total score on your project between:
+### Obtención de la url con el dataset de predicciones por jugador (RAPTOR) de la FiveThirtyEight.
 
-    **Score**|**Expectations**
-    -----|-----
-    0|Does not meet expectations
-    1|Meets expectactions, good job!
-    2|Exceeds expectations, you wonderful creature, you!
 
-This will be useful as an overall gauge of whether you met the project goals, but __the more important scores are described in the specs above__, which can help you identify where to focus your efforts for the next project!
+* En la página web FiveThirtyEight.com descubro unas métricas que calculan la proyección de cada jugador de la NBA y que se actualiza cada día en función de su rendimiento. A estos algoritmos los llaman [RAPTOR] (https://fivethirtyeight.com/features/introducing-raptor-our-new-metric-for-the-modern-nba/). Como referencia de valor de predicción decido extraer el valor de tres métricas diferentes y hacer la media. Las métricas seleccionads son las siguientes:
+- war_reg_season: “Wins Above Replacement for regular season”
+- raptor_total: “Points above average per 100 possessions added by player on both offense and defense, using both box and on-off components “
+- predator_total: “Predictive points above average per 100 possessions added by player on both offense and defense”
 
+* Para disponer de los datos la página web me enlzae a un repositorio de github público donde puedo extraer diariamente la información mediante csv. Escribo la llamada y lo transformo en un dataframe llamado df_prediccion
+
+### Escrapear para importar datos de mi equipo y mercado
+
+* Preparar conexión con selenium: sigo los pasos que nos enseñaron en clase para poder conectarme a la página web mediante selenium. He escogido esta librería porque la [web a escrapear] (https://biwenger.as.com/) solicita al usuario la realización de acciones con el ratón.
+
+* Hacer login para entrar en mi cuenta: necesito loguearme para acceder a la información de mi cuenta. Se ha decidido hacer visible el username (mi email) y no visible los passwords (en ficheros txts separados).
+
+* Ordenar acciones que la web solicita para acceder a la información. En este caso las acciones a programas son las siguientes.
+- Aceptar cookies
+- Navegar hasta la sección donde se encuentra la información (/team y /market).
+- Hacer scroll y esperar para acceder sin problemas.
+- Seleccionar formato tabular para escrapear más fácilmente.
+
+* Escrapear: 
+- Para información de mi equipo se ordena un for loop que me vaya generando diccionarios para cada jugador con su posición, su nombre y su valor. Estos diccionarios se almacenan en una lista.
+- Para información del mercado se ordena un for loop que me vaya generando diccionarios para cada jugador con su posición, su nombre, su estado físico y su valor. Estos diccionarios se almacenan en una lista.
+
+* Transformar a dataframes: Transformo las listas de diccionarios obtenidas en dataframes de nombre: df_equipo y df_mercado.
+
+### Analisis de la información extraida
+- Relaciono las dataframes de biwinger con la df_predicción mediante método merge.
+- Manipulo los dataframes resultantes para incluir un campo de confianza de la predicción. La confianza en la predicción se basa en los minutos jugados por cada jugador en proporción a los minutos máximos que éste podría haber jugado. Se hace este cálculo porque las predicciones se basan en el rendimiento de cada jugador durante los minutos jugados y, por tanto, cuanto más minutos haya jugado más fiable será la predicción.
+- Ordeno cada dataframe según el siguiente criterio: dataframe de mis jugadores: de menor a mayor valor de proyección. Dataframe del mercado: de mayor a menor valor de proyección.
+- Visualizo y exporto en un csv los dataframe finales llamados: rank_jugadores_vendibles y rank_jugadores_fichables
+
+
+## Links
+* [Repository](https://github.com/ironhack-bcn-data-pt/PR03-project-web/pull/21)
+* [Slides in html](https://drive.google.com/file/d/11GF9rY45Dw5JZid8D9XjCogDO4tyTOAD/view?usp=sharing)
+* [Slide in pdf](https://drive.google.com/file/d/11QNCC8VOb4Af3GMiBiNnpzjgJ8NOJIVS/view)
