@@ -27,21 +27,21 @@ El objetivo de este proyecto era el tener que practicar lo que ha aprendido en l
 
 * Tras localizar la página web donde se encontraba la API con los datos [analisi.transparenciacatalunya.cat] (https://analisi.transparenciacatalunya.cat/Treball/Convocat-ries-de-Personal/a2hm-uzyj) procedo a leer la [documentación de la API] (https://dev.socrata.com/foundry/analisi.transparenciacatalunya.cat/a2hm-uzyj) para encontrar el método de conectar con ella y hacer un get para obtener el dataset. 
 
-*En Code Snippets encuentro un apartado de “Python Pandas” con dos formas de acceder a los datos:
-. Mediante un cliente no autenticado: lo cual me avisa que puede conllevar restricciones de acceso
-. Mediante cliente autenticado: acceso sin restricciones.
+* En Code Snippets encuentro un apartado de “Python Pandas” con dos formas de acceder a los datos:
+- Mediante un cliente no autenticado: lo cual me avisa que puede conllevar restricciones de acceso
+- Mediante cliente autenticado: acceso sin restricciones.
 Decido acceder mediante la segunda opción y para ello, me creo una cuenta para obtener una contraseña y un token.
 
-*Accediendo a los datos mediante código sugerido para Python Pandas:
-.Importo sodapy de la librería Socrata y accedo a la información con método Socrata y los siguientes parámetros: (‘url’,token,username,password)
-.Utilizo el método de Socrata client.get y amplio el límite a 70000 registros. Obtengo un json llamado “results”
+* Accediendo a los datos mediante código sugerido para Python Pandas:
+- Importo sodapy de la librería Socrata y accedo a la información con método Socrata y los siguientes parámetros: (‘url’,token,username,password)
+- Utilizo el método de Socrata client.get y amplio el límite a 70000 registros. Obtengo un json llamado “results”
 
-*Convertir json en un dataframe de Pandas: Convierto el json en un dataframe utilizando pd.json_normalize
+* Convertir json en un dataframe de Pandas: Convierto el json en un dataframe utilizando pd.json_normalize
 
 
-*Problema encontrado: la documentación me sugería un método concreto de pandas “pd.DataFrame.from_records” pero el resultado era una dataframe con celdas con listas. Para evitar esto he decidido utilizar el método anteriormente comentado.
+* Problema encontrado: la documentación me sugería un método concreto de pandas “pd.DataFrame.from_records” pero el resultado era una dataframe con celdas con listas. Para evitar esto he decidido utilizar el método anteriormente comentado.
 
-*Exportar dataframe a csv en carpeta output.
+* Exportar dataframe a csv en carpeta output.
 
 ## Parte II: Web Data Scraping 
 
@@ -55,9 +55,9 @@ Decido acceder mediante la segunda opción y para ello, me creo una cuenta para 
 
 
 * En la página web FiveThirtyEight.com descubro unas métricas que calculan la proyección de cada jugador de la NBA y que se actualiza cada día en función de su rendimiento. A estos algoritmos los llaman [RAPTOR] (https://fivethirtyeight.com/features/introducing-raptor-our-new-metric-for-the-modern-nba/). Como referencia de valor de predicción decido extraer el valor de tres métricas diferentes y hacer la media. Las métricas seleccionads son las siguientes:
-. war_reg_season: “Wins Above Replacement for regular season”
-. raptor_total: “Points above average per 100 possessions added by player on both offense and defense, using both box and on-off components “
-. predator_total: “Predictive points above average per 100 possessions added by player on both offense and defense”
+- war_reg_season: “Wins Above Replacement for regular season”
+- raptor_total: “Points above average per 100 possessions added by player on both offense and defense, using both box and on-off components “
+- predator_total: “Predictive points above average per 100 possessions added by player on both offense and defense”
 
 * Para disponer de los datos la página web me enlzae a un repositorio de github público donde puedo extraer diariamente la información mediante csv. Escribo la llamada y lo transformo en un dataframe llamado df_prediccion
 
@@ -68,24 +68,22 @@ Decido acceder mediante la segunda opción y para ello, me creo una cuenta para 
 * Hacer login para entrar en mi cuenta: necesito loguearme para acceder a la información de mi cuenta. Se ha decidido hacer visible el username (mi email) y no visible los passwords (en ficheros txts separados).
 
 * Ordenar acciones que la web solicita para acceder a la información. En este caso las acciones a programas son las siguientes.
-. Aceptar cookies
-. Navegar hasta la sección donde se encuentra la información (/team y /market).
-. Hacer scroll y esperar para acceder sin problemas.
-. Seleccionar formato tabular para escrapear más fácilmente.
+- Aceptar cookies
+- Navegar hasta la sección donde se encuentra la información (/team y /market).
+- Hacer scroll y esperar para acceder sin problemas.
+- Seleccionar formato tabular para escrapear más fácilmente.
 
 * Escrapear: 
-. Para información de mi equipo se ordena un for loop que me vaya generando diccionarios para cada jugador con su posición, su nombre y su valor. Estos diccionarios se almacenan en una lista.
-. Para información del mercado se ordena un for loop que me vaya generando diccionarios para cada jugador con su posición, su nombre, su estado físico y su valor. Estos diccionarios se almacenan en una lista.
+- Para información de mi equipo se ordena un for loop que me vaya generando diccionarios para cada jugador con su posición, su nombre y su valor. Estos diccionarios se almacenan en una lista.
+- Para información del mercado se ordena un for loop que me vaya generando diccionarios para cada jugador con su posición, su nombre, su estado físico y su valor. Estos diccionarios se almacenan en una lista.
 
 * Transformar a dataframes: Transformo las listas de diccionarios obtenidas en dataframes de nombre: df_equipo y df_mercado.
 
 ### Analisis de la información extraida
-. Relaciono las dataframes de biwinger con la df_predicción mediante método merge.
-. Manipulo los dataframes resultantes para incluir un campo de confianza de la predicción. La confianza en la predicción se basa en los minutos jugados por cada jugador en proporción a los minutos máximos que éste podría haber jugado. Se hace este cálculo porque las predicciones se basan en el rendimiento de cada jugador durante los minutos jugados y, por tanto, cuanto más minutos haya jugado más fiable será la predicción.
-. Ordeno cada dataframe según el siguiente criterio: 
-- dataframe de mis jugadores: de menor a mayor valor de proyección.
-- dataframe del mercado: de mayor a menor valor de proyección.
-. Visualizo y exporto en un csv los dataframe finales llamados: rank_jugadores_vendibles y rank_jugadores_fichables
+- Relaciono las dataframes de biwinger con la df_predicción mediante método merge.
+- Manipulo los dataframes resultantes para incluir un campo de confianza de la predicción. La confianza en la predicción se basa en los minutos jugados por cada jugador en proporción a los minutos máximos que éste podría haber jugado. Se hace este cálculo porque las predicciones se basan en el rendimiento de cada jugador durante los minutos jugados y, por tanto, cuanto más minutos haya jugado más fiable será la predicción.
+- Ordeno cada dataframe según el siguiente criterio: dataframe de mis jugadores: de menor a mayor valor de proyección. Dataframe del mercado: de mayor a menor valor de proyección.
+- Visualizo y exporto en un csv los dataframe finales llamados: rank_jugadores_vendibles y rank_jugadores_fichables
 
 
 ## Links
