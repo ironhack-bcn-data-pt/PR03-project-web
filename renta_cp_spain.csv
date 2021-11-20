@@ -1,0 +1,687 @@
+,nombre,renta_media_disponible,Codigo_postal
+0, Almería ,21.136,04013
+1, Centro Rambla  Centro Paseo  Plaza de Toros  Catedral ,36.352,04001
+2, La Chanca  Las Cuevas de S.Joaquín  Urb.Las Pedrizas  Col.del Morato Almedina ,17.69,04002
+3, Pza.de la Constitución  Cerro San Cristobal Barrio de las Cruces  El Santo ,20.935,04003
+4, Oliveros  Santa Rita ,26.8,04004
+5, Barrio Alto  Col.Montserrat Altamira ,22.688,04005
+6, Nueva Andalucía  Regiones Devastadas  El Diezmo  La Bolera  Los Molinos ,21.973,04006
+7, 500 viviendas  El Zapillo  Cortijo Grande  Ciudad Jardín  La Bolera ,23.786,04007
+8, La Molineta  Las Trincheras  LosÁngeles  La Fuentecica Barrio de la Esperanza ,17.041,04008
+9, El Puche  La Loma  Las Chocillas  Torre Cárdenas ,19.53,04009
+10, El Bobar  La Cañada  Costacabana  Loma Cabrera  El Mamí  Venta Gaspar ,17.066,04120
+11, Alquian ,14.642,04130
+12, Retamar ,21.479,04131
+13,resto Almería,16.103,04
+14, Jerez de la Frontera ,20.64,11020
+15, Las Pachecas El Mojo Los Isletes ,18.384,11400
+16, Sur ,19.67,11401
+17, Centro ,27.209,11402
+18, Centro Catedral San Salvador Alcázar ,21.537,11403
+19, Hospital de Jerez ,16.979,11404
+20, Norte Noreste Granja ,22.24,11405
+21, Este Delicias ,19.543,11406
+22, Centro ,25.34,11407
+23, Oeste Centro ,17.664,11408
+24, Garrapilos ,15.621,11570
+25, Guadalcacín ,16.905,11591
+26,resto Jerez de la Frontera,15.562,11
+27, Córdoba ,21.984,14021
+28, Ollerías Sta Marina San Lorenzo ,26.032,14001
+29, San Pedro Santiago La Magdalena ,22.524,14002
+30, Catedral San Francisco ,26.555,14003
+31, San Basilio Parque Cruz Conde Alameda Del Obispo ,24.306,14004
+32, Miralbaida Palmeras ,22.922,14005
+33, Valdeolleros Huerta La Reina ,21.598,14006
+34, Levante ,18.252,14007
+35, Centro Avenida de América ,30.335,14008
+36, Fray Albino ,17.587,14009
+37, Fuensanta El Arcángel ,17.642,14010
+38, El Tablero ,23.07,14011
+39, El Brillante Quitapesares ,31.992,14012
+40, Sector Sur Polígono Del Guadalquivir ,16.204,14013
+41, Fátima Parque Fidiana Cañero ,18.485,14014
+42, Las Jaras Las Ermitas y otros ,24.789,14029
+43, Alcolea ,17.493,14610
+44, Extrarradio (Villarrubia) ,16.82,14710
+45, Encinarejo de Córdoba (Núcleo) ,20.218,14711
+46,resto Córdoba,19.392,14
+47, Granada ,24.703,18087
+48, Centro ,28.782,18001
+49, Centro ,28.897,18002
+50, Ronda ,24.995,18003
+51, Ronda Arabial ,27.902,18004
+52, San Antón ,28.807,18005
+53, Figares Ciudad Jardín ,24.447,18006
+54, Zaidín Vergeles ,18.853,18007
+55, Cervantes Palacio de Deportes Bola de Oro Carretera Sierra ,26.189,18008
+56, Realejo ,29.001,18009
+57, Albaicín Sacromonte ,23.927,18010
+58, Norte Beiro ,17.917,18011
+59, Plaza de Toros Doctores San Lázaro ,28.532,18012
+60, Polígono de Almanjáyar Joaquina Eguaras Sur ,19.673,18013
+61, Barrio de Los Periodistas ,26.372,18014
+62, La Chana ,20.246,18015
+63,resto Granada,22.586,18
+64, Málaga ,22.491,29067
+65, Ensanche Centro Soho ,31.226,29001
+66, El Bulto Jardín de La Abadía La Princesa ,23.463,29002
+67, Barceló El Torcal Girón Vistafranca La Cordobesa ,17.775,29003
+68, Pol. Ind. Guadalhorce Guadalmar Carretera de Cádiz ,22.211,29004
+69, Cruz de Humilladero ,18.957,29006
+70, Carranque Hazas Cuevas ,22.62,29007
+71, La Goleta San Felipe Neri Centro Histórico ,23.509,29008
+72, Perchel Norte La Trinidad ,19.718,29009
+73, Bailén Miraflores Suárez Teatinos ,21.837,29010
+74, Martírinos La Roca Palma Palmilla ,17.48,29011
+75, La Merced Barcenillas Seminario ,23.464,29012
+76, Olletas Sierra Blanquilla El Ejido ,21.512,29013
+77, Ciudad Jardín ,18.274,29014
+78, Malagueta Monte Sancha ,41.045,29016
+79, Pedregalejo Morlaco Las Acacias El Palo ,28.877,29017
+80, Cerrado de Calderón Hacienda Paredes ,31.053,29018
+81, Churriana La Noria Buenavista ,22.133,29140
+82, El Chaparral Los Morales Torremar ,21.476,29190
+83, Campanillas ,17.859,29590
+84, Campanillas Puerto La Torre ,17.701,29591
+85,resto Málaga,29.083,29
+86, Sevilla ,24.201,41091
+87, Casco Antiguo ,34.363,41001
+88, Casco Antiguo ,28.077,41002
+89, Casco Antiguo Cerro Amate Nervión S.Pablo Sta.Justa ,27.263,41003
+90, Casco Antiguo Este Nervión Sur ,35.68,41004
+91, Nervión Sur ,27.955,41005
+92, Bellavista La Palmera Casco Antiguo Cerro Amate Sur ,17.431,41006
+93, Nervión Norte S.Pablo Sta.Justa ,24.287,41007
+94, Macarena Norte S.Pablo Sta.Justa ,21.795,41008
+95, Casco Antiguo Macarena Norte ,20.409,41009
+96, Los Remedios Triana ,24.805,41010
+97, Los Remedios Triana ,33.624,41011
+98, Bellavista La Palmera Sur ,29.739,41012
+99, Bellavista La Palmera Casco Antiguo Nervión Sur ,27.398,41013
+100, Bellavista La Palmera ,21.7,41014
+101, Este Macarena Norte ,18.391,41015
+102, Bellavista La Palmera Cerro Amate Este ,16.848,41016
+103, Nervión Sur ,34.511,41018
+104, Este Norte S. Pablo Sta.Justa ,18.216,41019
+105, Este Norte ,24.479,41020
+106,resto Sevilla,19.736,41
+107, Zaragoza ,23.961,50297
+108, Casco Viejo ,32.814,50001
+109, Las Fuentes ,19.874,50002
+110, La Almozara ,21.455,50003
+111, Centro Paseo de La Independencia ,29.623,50004
+112, Centro Cortes de Aragón ,23.769,50005
+113, Centro ,29.767,50006
+114, Torrero La Paz San José ,20.42,50007
+115, Centro  Paseo Sagasta ,28.339,50008
+116, Universidad Romareda ,29.719,50009
+117, Parque Roma ,20.44,50010
+118, Miralbueno ,26.646,50011
+119, Oliver Valdefierro Casablanca ,31.301,50012
+120, Cartuja Baja ,21.072,50013
+121, Rabal ,23.007,50014
+122, Parque Goya 1 ,21.209,50015
+123, Santa Isabel ,23.326,50016
+124, Delicias ,19.628,50017
+125, Parque Goya 2 ,23.666,50018
+126, Casablanca ,23.289,50019
+127, Torrero La Paz Parque Venecia ,24.346,50021
+128, Arcosur ,21.739,50022
+129, Montañana Barrio Del Saso ,21.816,50059
+130, Monzalbarba ,20.189,50120
+131, Garrapinillos ,24.347,50190
+132, Movera Torre Larraz ,23.596,50194
+133, Casetas ,19.249,50620
+134, Cartuja Baja ,22.051,50720
+135, San Juan de Mozarrifar ,24.024,50820
+136,resto Zaragoza,23.859,50
+137, Gijón ,23.331,33024
+138, Centro Cimadevilla ,27.683,33201
+139, La Arena ,25.267,33202
+140, La Guía Somió ,31.983,33203
+141, El Coto Viesques ,26.225,33204
+142, El Llano de Arriba ,23.634,33205
+143, Laviada ,28.571,33206
+144, El Polígono ,23.0,33207
+145, El Llano de Abajo ,20.824,33208
+146, Ceares ,20.704,33209
+147, Pumarín ,19.168,33210
+148, Gijón Sur (Tremañes Roces Nuevo Gijón Montevil) ,21.316,33211
+149, Natahoyo ,21.786,33212
+150, La Calzada Veriña ,19.937,33213
+151, Jove Hospital ,20.468,33290
+152, Granda La Camocha ,23.59,33350
+153, Castiello Santurio ,24.104,33391
+154, Deva Cabueñes ,32.725,33394
+155,resto Gijón,23.236,333
+156, Oviedo ,24.777,33044
+157, Pumarín ,26.939,33001
+158, Centro Norte ,27.448,33002
+159, Centro Este ,32.572,33003
+160, Centro Oeste ,37.954,33004
+161, El Cristo ,34.579,33005
+162, Buenavista ,27.337,33006
+163, Buenavista ,32.956,33007
+164, Fuente Del Forno ,24.491,33008
+165, Fuente de La Plata ,25.678,33009
+166, La Florida ,21.338,33010
+167, Corredoria ,21.385,33011
+168, Ferreros ,23.535,33012
+169, Arganosa ,24.95,33013
+170, Área Trubia ,20.3,33119
+171, Las Regueras ,22.891,33191
+172,resto Oviedo,23.601,331
+173, Palma de Mallorca ,25.631,07040
+174, Monti Sion ,49.636,07001
+175, Centro Mercat ,31.583,07002
+176, Centro Sant Jaume ,32.681,07003
+177, Son Oliva ,23.996,07004
+178, Pere Garau ,21.653,07005
+179, Es Portixol ,24.583,07006
+180, Coll D En Rabassa ,21.703,07007
+181, Son Canals ,19.455,07008
+182, Son Cladera ,20.535,07009
+183, Cas Capiscol ,24.892,07010
+184, El Fortí Son Ximelis ,25.064,07011
+185, San Jaume ,47.235,07012
+186, Son Rapinya ,28.053,07013
+187, Son Dureta ,33.075,07014
+188, Cala Major El Terreno ,31.583,07015
+189, Son Sardina ,27.162,07120
+190, Son Ferriol ,22.902,07198
+191, Llevant ,25.567,07199
+192, El Arenal ,20.371,07600
+193, Can Pastilla ,26.101,07610
+194,resto Palma de Mallorca,23.586,07
+195, Palmas de Gran Canaria Las ,24.103,35016
+196, Cono Sur ,30.083,35001
+197, Triana ,35.068,35002
+198, Arenales ,31.265,35003
+199, Lugo ,29.28,35004
+200, Ciudad Jardín ,47.732,35005
+201, Alcaravaneras ,26.699,35006
+202, Santa Catalina ,27.034,35007
+203, Tafira ,27.34,35008
+204, La Isleta ,20.767,35009
+205, Guanarteme ,25.615,35010
+206, Escaleritas ,26.395,35011
+207, Schamann ,18.579,35012
+208, La Paterna ,17.17,35013
+209, Miller ,19.309,35014
+210, La Matula ,17.617,35015
+211, Vega de San José ,18.1,35016
+212, Tafira ,32.272,35017
+213, Tamaraceite ,20.631,35018
+214, Siete Palmas ,28.71,35019
+215, El Cernícalo  Santa Margarita  Mercalaspalmas Hornos del Rey Llanos de cuatro caminos  El Sabinal ,20.771,35229
+216,resto Palmas de Gran Canaria Las,21.665,35
+217, Santa Cruz de Tenerife ,23.711,38038
+218, Rambla de Santa Cruz Puerto ,31.7,38001
+219, San Vicente Ferrer Plaza de España ,29.707,38002
+220, Av. Constitución Palmetum ,30.499,38003
+221, Ifara Parque García Sanabria ,33.177,38004
+222, Av Barranco de Santos Tunel Juan Amigo de Lara ,25.202,38005
+223, Rambla de Santa Cruz Av Barranco de Santos ,28.497,38006
+224, Parque de La Granja ,23.298,38007
+225, Parque Las Indias Barranco de Santos ,19.418,38008
+226, Universidad de La Laguna Campus Central ,22.042,38009
+227, Av. Principes de España ,18.365,38010
+228, El Sobradillo La Gallega El Pilar ,18.759,38107
+229, San Matías Los Andenes Las Chumberas ,16.08,38108
+230, Santa María Del Mar Añaza ,19.879,38111
+231, San Andrés Barranco del Cercado  ,18.917,38120
+232, Cueva Bermeja Valle Crispín Los Catalanes ,21.283,38180
+233,resto Santa Cruz de Tenerife,21.31,38
+234, Santander ,24.897,39075
+235, Centro Ayuntamiento ,22.177,39001
+236, Centro Ayuntamiento ,34.292,39002
+237, Centro ,25.246,39003
+238, Puerto Chico ,31.317,39004
+239, El Sardinero Los Pinares ,31.836,39005
+240, San Martín San Roque ,22.554,39006
+241, San Fernando General Dávila ,22.386,39007
+242, Cuatro Caminos Numancia San Fernando ,21.148,39008
+243, Barrio Pesquero (Castilla Hermida) ,21.439,39009
+244, Cuatro Caminos San Fernando ,25.95,39010
+245, Peñacastillo Alisal ,22.075,39011
+246, La Pereda ,27.956,39012
+247,resto Santander,22.502,39
+248, Burgos ,23.611,09059
+249, Universidad Campus San Amaro ,24.529,09001
+250, Museo de La Evolución Humana Carretera Madrid Irun ,23.748,09002
+251, Catedral de Burgos ,23.087,09003
+252, Plaza de La Libertad Av. Arlanzón ,29.428,09004
+253, Plaza de España Plaza Francisco Sarmiento ,24.596,09005
+254, Villatoro Cementerio San José ,24.549,09006
+255, San Cristóbal Gamonal ,20.877,09007
+256,resto Burgos,28.703,09
+257, Valladolid ,24.349,47186
+258, Centro Paseo Isabel La Católica Plaza España ,81.614,47001
+259, Centro Universidad Plaza San Juan ,28.213,47002
+260, Las Moreras Rondilla Hospital Centro San Miguel ,27.467,47003
+261, Recoletos San Andrés Caño Argales ,28.278,47004
+262, Plaza Circular Las Batallas ,20.859,47005
+263, Paseo Zorrilla Cuatro de Marzo ,26.151,47006
+264, Campo Grande Arco Ladrillo ,24.937,47007
+265, Parque Alameda Covaresa ,26.286,47008
+266, La Overuela Navabuena ,23.416,47009
+267, Rondilla Santa Clara Barrio España ,18.863,47010
+268, San Pablo Barrio España Barrio Belén Pilarica ,20.442,47011
+269, Arcas Reales Pajarillos ,19.021,47012
+270, Delicias ,19.236,47013
+271, Parquesol Huerta Del Rey ,25.562,47014
+272, Villa Del Prado ,27.663,47015
+273, Parquesol ,30.46,47016
+274,resto Valladolid,22.006,47
+275, Albacete ,22.463,02003
+276, San Antonio Abad  La Pajarita  Polígono de San Antón  Centro ,25.897,02001
+277, Parque Sur Huerta de Marzo ,25.262,02002
+278, Franciscanos ,23.203,02003
+279, Fátima  Villacerrada ,19.833,02004
+280, Industria  El Pilar  Feria  Ntra. Sra. de Cubas ,21.829,02005
+281, San Pedro  Mortero  Pedro Lamata  Santa Teresa  Sepulcro Bolera  San Pablo ,21.27,02006
+282, Campollano ,22.679,02007
+283, La Estrella  La Milagrosa  Hermanos Falcó  Universidad ,23.403,02008
+284, Aguas Nuevas ,20.914,02049
+285,resto Albacete,19.068,02
+286, Badalona ,22.911,08015
+287, Casagemes ,28.813,08911
+288, Badalona ,27.203,08912
+289, La Salut ,19.726,08913
+290, Centro ,19.341,08914
+291, Morera ,22.783,08915
+292, Mas Ram ,29.211,08916
+293, Montigala ,21.6,08917
+294, Sant Roc ,18.643,08918
+295,resto Badalona,19.616,0891
+296, Barcelona ,30.938,08019
+297, Ciutat Vella El Raval ,19.974,08001
+298, Barrio Gótico ,26.617,08002
+299, Barceloneta y Sant Pere ,24.527,08003
+300, Pueblo Seco ,23.099,08004
+301, El Poblenou ,31.897,08005
+302, Sant Gervasi ,41.785,08006
+303, Passeig de Gràcia Rambla de Catalunya ,46.34,08007
+304, Diagonal Provença ,47.282,08008
+305, Dreta de L Eixample ,41.086,08009
+306, Tetúan Urquinaona ,39.565,08010
+307, Urgel Sant Antoni ,31.554,08011
+308, Vila de Gracia ,30.316,08012
+309, Glories Catalanes ,28.522,08013
+310, Hostafrancs Sants ,26.968,08014
+311, Sant Antoni ,29.537,08015
+312, La Prosperitat Porta ,22.212,08016
+313, Vallvidrera Tibidabo i Les Planes ,73.747,08017
+314, Sant Martí ,27.889,08018
+315, Diagonal Mar i El Front Maritim Del Poblenou ,27.664,08019
+316, La Verneda i La Pau ,22.984,08020
+317, Muntaner ,72.231,08021
+318, Sant Gervasi La Bonanova ,51.993,08022
+319, Vallcarca i Los Penitentes ,35.067,08023
+320, Gracia La Salud ,28.948,08024
+321, Sagrada Familia ,28.125,08025
+322, El Clot ,25.538,08026
+323, La Sagrera ,24.978,08027
+324, Les Corts ,29.62,08028
+325, L Nou Esquerra de L Eixample ,35.017,08029
+326, Sant Andreu Bon Pastor ,25.475,08030
+327, Vilapicina i La Torre Llobeta ,23.976,08031
+328, El Carmelo El Guinardó ,24.471,08032
+329, Vallbona Ciutat Meridiana Torre Baro Canyelles ,19.519,08033
+330, Pedralbes Sarriá ,63.947,08034
+331, Sant Genís Dels Agudells Vall D  Hebrón Horta ,27.121,08035
+332, L Antiga Esquerra de L Eixample ,37.467,08036
+333, Verdaguer L Eixample ,35.899,08037
+334, Sants  Montjuic La Marina de Port ,23.222,08038
+335, Guinardó i Hospital de Sant Pau ,26.715,08041
+336, La Guineueta Verdún ,21.639,08042
+337,resto Barcelona,34.115,080
+338, Hospitalet de Llobregat ,21.602,08101
+339, Centre Sant Josép ,23.939,08901
+340, Santa Eulalia El Gornal ,23.669,08902
+341, La Torrassa ,20.577,08903
+342, Collblanc ,19.701,08904
+343, La Florida Les Planes ,18.632,08905
+344, Pubilla Cases Can Serra San Feliú ,20.009,08906
+345, Bellvitge Centre ,21.898,08907
+346, Bellvitge Gran Vía Sud ,24.419,08908
+347,resto Hospitalet de Llobregat,20.721,0890
+348, Sabadell ,24.433,08187
+349, Centre ,32.87,08201
+350, Torre Romeu El Poblenou ,28.647,08202
+351, Montserrat Roig María Mercé Marçal Montevideo ,24.042,08203
+352, Margarida Xirgu Consol Oromir Triana Sant Pius X ,19.714,08204
+353, Gracia Aeropuerto ,23.728,08205
+354, Parque Odessa Parque Catalunya ,23.12,08206
+355, Matadepera ,20.727,08207
+356, Creu Alta Can Puig Gener ,25.363,08208
+357,resto Sabadell,22.904,0820
+358, Sant Cugat del Vallès ,42.369,08205
+359, Sant Cugat Nucleo ,37.631,08172
+360, Golf Eixemple Colomer ,47.174,08173
+361, Can Barata ,38.234,08174
+362, Mirasol ,45.243,08195
+363, Valldoreix ,47.536,08197
+364, La Floresta ,35.193,08198
+365,resto Sant Cugat del Vallès,36.885,0819
+366, Terrassa ,23.751,08279
+367, El Centre ,31.824,08221
+368, Valparadis ,22.56,08222
+369, Segle X ,22.017,08223
+370, La Cogallura Vista Alegre ,24.376,08224
+371, Placita Del Bon Aire Can Roca Poble Nou ,23.786,08225
+372, Can Tussel ,20.975,08226
+373, Can Montlior Els Bellots ,21.122,08227
+374, P.I. Can Perellada Perellada ,23.608,08228
+375,resto Terrassa,22.039,0822
+376, Alicante/Alacant ,22.822,03014
+377, Centro ,33.528,03001
+378, Casco Antiguo ,26.321,03002
+379, Ensanche ,31.177,03003
+380, San Antón ,24.321,03004
+381, Polígono de San Blas ,23.029,03005
+382, Florida Portazgo ,18.125,03006
+383, Polígono de Babel ,20.733,03007
+384, Puerto de Alicante El Palmeral ,23.394,03008
+385, Los Ángeles Campoamor ,17.829,03009
+386, Altozano ,18.478,03010
+387, Ciudad Jardín ,15.72,03011
+388, Carolinas ,16.708,03012
+389, Repós ,17.964,03013
+390, Nou Alacant ,15.213,03014
+391, Parque de Las Avenidas Vistahermosa ,22.144,03015
+392, La Goteta La Cantera ,26.201,03016
+393, Villafranqueza ,18.122,03112
+394, Playa de San Juan ,30.657,03540
+395, Moralet ,18.97,03699
+396,resto Alicante/Alacant,23.002,036
+397, Elche/Elx ,18.426,03065
+398, El Vincle Novavallverda Valverde Barrio Alto ,24.621,03139
+399, L Altet Els Bassars ,20.516,03195
+400, Plá de Sant Josép Pont Nou ,18.425,03201
+401, Altabix Ciutat Esportiva ,20.585,03202
+402, Parque industrial ,21.88,03203
+403, Sector 5º El Asilo El Canal ,16.385,03204
+404, Altamira El Toscar ,15.438,03205
+405, Carrús Pza. Barcelona ,13.887,03206
+406, La Galia  Bonavista  Les Cases de Ferrández ,23.718,03207
+407, El Travaló ,21.482,03208
+408, Las Baias ,17.985,03292
+409, Pol.Ind. del Llano SnaJosé  Pla Nou  Algorós  El Derramador ,19.978,03293
+410, La Foia ,16.868,03294
+411, Les Selades Jubalcoy Maitino Perleta ,21.295,03295
+412, Matola Algoda ,20.852,03296
+413, Torrellano ,17.969,03320
+414,resto Elche/Elx,21.481,033
+415, Castellón de la Plana/Castelló de la Plana ,22.916,12040
+416, Centro Casco Histórico ,28.995,12001
+417, Centro Hospital Ribalta Pza. Toros ,26.331,12002
+418, Este/Zona Avda. del Mar ,25.992,12003
+419, Norte Nou Estadi Castalia Pza. Illes Columbretes ,22.609,12004
+420, Sur Parque Sensal ,22.707,12005
+421, Sur Oeste Universidad ,20.023,12006
+422, El Grao ,22.06,12100
+423,resto Castellón de la Plana/Castelló de la Plana,37.965,12
+424, Valencia ,25.415,46250
+425, El Pilar ,30.073,46001
+426, El Centro ,47.087,46002
+427, Carmen ,36.553,46003
+428, Pla de Remei ,67.613,46004
+429, Gran Vía ,36.051,46005
+430, Ruzafa ,23.195,46006
+431, Patraix ,26.475,46007
+432, Extramurs ,27.375,46008
+433, Marchalenes ,22.108,46009
+434, Mestalla ,42.756,46010
+435, Poblet Maritims ,22.04,46011
+436, La Albufera ,24.893,46012
+437, Quatre ,24.176,46013
+438, Barrio de La Luz ,20.811,46014
+439, Campanar ,27.265,46015
+440, Tavernes Blanques ,21.7,46016
+441, La Cruz Cubierto ,19.973,46017
+442, La Luz ,21.3,46018
+443, Torrefiel ,20.52,46019
+444, Benimaclet ,25.696,46020
+445, Algirós ,26.796,46021
+446, Ayora ,23.277,46022
+447, La Crus Del Grao ,29.373,46023
+448, Nazaret ,20.308,46024
+449, Benicalap ,20.348,46025
+450, Malilla ,21.142,46026
+451, Sant Pau Benimanet ,18.611,46035
+452, Massarrochos Santa Bárbara ,35.003,46112
+453,resto Valencia,19.915,46
+454, Coruña A ,25.74,15030
+455, Ciudad Vieja Centro ,30.894,15001
+456, Monte Alot Zalaeta Atocha ,23.64,15002
+457, Ensanche ,32.382,15003
+458, Juan Flórez San Pablo ,41.626,15004
+459, Falperra Santa Lucía Paseo de Los Puentes Sta Margarita ,31.151,15005
+460, Los Castros Castrillón ,25.581,15006
+461, Os Mallos ,19.934,15007
+462, Sagrada Familia Vioño ,23.009,15008
+463, Los Castros Castrillón ,29.083,15009
+464, Agrán Del Orzán Ventorrillo ,19.96,15010
+465, Riazor Los Rosales ,23.659,15011
+466, Mesoiro ,20.451,15190
+467,resto Coruña A,24.883,15
+468, Vigo ,23.484,36057
+469, Vigo Centro Areal Teis ,35.6,36201
+470, Casco Vello ,24.427,36202
+471, O Castro ,26.983,36203
+472, San Xosé Obreiro Sárdoma Casablanca Calvario ,24.717,36204
+473, San Paulo Casablanca Calvario Lavadores ,19.874,36205
+474, Lavadores Fátima ,19.982,36206
+475, Teis ,19.549,36207
+476, Bouzas Coia ,23.712,36208
+477, Coia ,21.439,36209
+478, Coia Freixeiro ,20.926,36210
+479, Travesas Pz Independencia Camelias Pi y Margall ,29.292,36211
+480, Alcabre Navia ,23.546,36212
+481, Comesaña Matamá ,21.48,36213
+482, Sárdoma Lavadores ,19.622,36214
+483, Cabral Lavadores ,19.547,36215
+484, Teis ,19.28,36216
+485, Beade ,20.79,36312
+486, Bembrive ,21.364,36313
+487, Valadares zona Parque tecnológico y logístico ,19.802,36314
+488, Valadares  A Piquela  Alba  San Juan  Sobreira ,20.173,36315
+489, Candeán ,19.888,36317
+490, Cabral ,19.544,36318
+491, Coruxo ,20.533,36330
+492, Coruxo ,26.026,36331
+493, Oya ,33.106,36390
+494,resto Vigo,26.015,36
+495, Alcalá de Henares ,23.828,28005
+496, Universidad de Alcalá ,27.875,28801
+497, Museo Arquelógico Regional Av. Madrid ,18.991,28802
+498, Av Reyes Católicos Calle Ronda Fiscal ,20.883,28803
+499, Ciudad Deportiva Municipal Del Val Av.Lope de Figueroa ,24.424,28804
+500, Hospital Universitario Centro Penitenciario ,25.189,28805
+501, Polígonos Industriales ,25.537,28806
+502, Estación ,22.876,28807
+503,resto Alcalá de Henares,20.773,288
+504, Alcobendas ,48.247,28006
+505, Valdelasfuentes ,27.444,28100
+506, La Granja Campus Empresarial ,50.143,28108
+507, La Moraleja ,175.84,28109
+508,resto Alcobendas,35.862,281
+509, Alcorcón ,23.589,28007
+510, Centro ,19.092,28921
+511, Prado de Santo Domingo  Parque Oeste  Fuente Cisneros ,24.996,28922
+512, Parque Ondarreta  Urtinsa ,21.06,28923
+513, Parque Lisboa  La Paz ,25.631,28924
+514, San José de Valderas  Los castillos ,25.426,28925
+515,resto Alcorcón,21.509,2892
+516, Getafe ,24.17,28065
+517, Getafe Centro San Isidro ,22.39,28901
+518, Getafe Centro ,23.31,28902
+519, Juan de la Cierva Universidad ,22.399,28903
+520, Getafe Centro ,21.706,28904
+521, La Alhóndiga ,26.742,28905
+522, Los Olivos Los Ángeles ,25.281,28906
+523, El Bercial ,28.537,28907
+524, Perales del Río ,26.132,28909
+525,resto Getafe,21.634,2890
+526, Leganés ,22.147,28074
+527, Zona centro ,21.157,28911
+528, Universidad ,18.846,28912
+529, San Nicasio ,18.804,28913
+530, Arroyo Culebro Ciudad del Automóvil Vereda de los Estudiantes Polvoranca Valdepelayo ,26.731,28914
+531, Zarzaquemada ,19.913,28915
+532, El Carrascal  Parquesur ,24.462,28916
+533, La Fortuna ,19.501,28917
+534, Solagua Butarque Campo de Tiro Quinto Centenario ,26.487,28918
+535, Leganés Norte Legatec Prado Overa ,23.522,28919
+536,resto Leganés,20.928,2891
+537, Madrid ,32.314,28079
+538, Salamanca  Goya ,98.602,28001
+539, Chamartín ,43.212,28002
+540, Chamberí Rios Rosas ,43.235,28003
+541, Justicia ,34.834,28004
+542, Arganzuela ,30.707,28005
+543, Castellana ,67.409,28006
+544, Adelfas ,35.167,28007
+545, Moncloa ,41.258,28008
+546, Ibiza Niño Jesús ,43.579,28009
+547, Almagro ,52.371,28010
+548, Latina ,23.71,28011
+549, Embajadores ,26.084,28012
+550, Centro ,41.074,28013
+551, Retiro ,47.422,28014
+552, Universidad ,34.058,28015
+553, Hispanoamerica Costillares ,53.306,28016
+554, Ventas Ciudad Lineal La Elipa ,22.249,28017
+555, Palomeras ,20.388,28018
+556, Opañel Comillas San Isidro ,21.948,28019
+557, Valdeacederas ,35.868,28020
+558, Villaverde S. Cristóbal de Los Ángeles ,20.038,28021
+559, San Blas ,27.807,28022
+560, Aravaca ,72.911,28023
+561, Campamento ,23.267,28024
+562, Carabanchel Abrantes ,20.468,28025
+563, Usera ,20.169,28026
+564, San Juan Bautista ,29.628,28027
+565, Guindalera Fuente El Berro ,33.828,28028
+566, Tetuán Barrio Del Pilar ,26.684,28029
+567, Moratalaz ,25.617,28030
+568, Villa Vallecas Santa Eugenia ,23.015,28031
+569, Vicalvaro  Valdebernardo ,24.819,28032
+570, Hortaleza Pinar Del Rey ,32.682,28033
+571, Tres Olivos ,38.463,28034
+572, Fuencarral ,47.297,28035
+573, Nueva España ,68.838,28036
+574, San Blas ,22.163,28037
+575, Pavones ,19.58,28038
+576, Bellas Vistas Valdeacederas ,24.316,28039
+577, Ciudad Universitaria ,38.885,28040
+578, Orcasitas San Fermín ,21.106,28041
+579, Barajas La Alameda de Osuna ,36.627,28042
+580, Hortaleza Canillas ,42.059,28043
+581, Cuatrovientos ,21.878,28044
+582, Delicias ,29.53,28045
+583, Castilla  Chamartín ,55.947,28046
+584, Aluche Vista Alegre ,22.744,28047
+585, Fuencarral El Pardo ,25.234,28048
+586, El Goloso ,42.914,28049
+587, Las Tablas ,40.349,28050
+588, Villa de Vallecas ,25.496,28051
+589, El Cañaveral ,24.004,28052
+590, Entrevías Puente de Vallecas ,18.049,28053
+591, Buenavista La Fortuna ,26.828,28054
+592, Valdebebas Valdefuentes ,45.287,28055
+593,resto Madrid,28.957,280
+594, Móstoles ,21.324,28092
+595, Av. Portugal Parque Cuartel Huerta ,19.119,28931
+596, Av. Alcalde Mostoles Av. Portugal ,22.684,28932
+597, A5 Av. Portugal ,22.782,28933
+598, Casco Antiguo ,18.902,28934
+599, Móstoles El Soto ,22.811,28935
+600, Av. Carlos V Av. Onu Osa Mayor ,20.963,28936
+601, Ávila Castellón Libertad ,19.773,28937
+602, P.I. Arroyomolinos R5 ,21.456,28938
+603,resto Móstoles,19.922,2893
+604, Pozuelo de Alarcón ,60.263,28115
+605, Somosaguas Humera ,71.3,28223
+606, Pozuelo de Alarcón ,47.35,28224
+607,resto Pozuelo de Alarcón,59.384,2822
+608, Las Rozas ,39.555,28127
+609, El Burgo ,34.252,28231
+610, La Chopera Európolis ,43.588,28232
+611, Las Matas ,41.367,28290
+612,resto Las Rozas,42.596,2820
+613, Cartagena ,22.009,30016
+614, Parque Arqueológico Cerro Del Molinete ,29.948,30201
+615, Los Grifos ,21.744,30202
+616, San Ginés ,21.956,30203
+617, Ensanche ,24.718,30204
+618, Algameca ,24.077,30205
+619, Peral ,19.771,30300
+620, Los Dolores ,21.039,30310
+621, Miranda ,22.875,30319
+622, Albujón ,17.25,30330
+623, El Algar ,17.633,30366
+624, Cabo de Palos ,25.7,30370
+625, La Manga ,22.492,30380
+626, Los Belones Las Barracas ,18.52,30385
+627, La Aljorra ,17.256,30390
+628, Galifa El Portús ,21.062,30393
+629, Canteras Tentengorra ,25.829,30394
+630, La Puebla ,20.384,30395
+631, Los Conesas La Palma Los Salazares ,19.537,30593
+632, Pozo Estrecho ,20.193,30594
+633,resto Cartagena,19.067,305
+634, Murcia ,23.077,30030
+635, La Catedral San Bartolomé ,37.385,30001
+636, El Carmen Buenos Aires ,24.053,30002
+637, Sta. Eulalia San Juan Vistabella ,23.161,30003
+638, San Antolín San Pedro Sta. Catalina ,34.231,30004
+639, San Andrés San Nicolás ,30.376,30005
+640, Puente Tocinos ,19.839,30006
+641, Zarandona ,28.218,30007
+642, La Fama ,33.959,30008
+643, La Albatalia San Antón San Basilio Sta. María de Gracia ,26.009,30009
+644, La Purísima Barriomar San Pío X ,20.753,30010
+645, Los Dolores ,23.106,30011
+646, San Benito Patiño Progreso ,19.591,30012
+647, El Puntal ,24.113,30100
+648, Guadalupe ,26.205,30107
+649, Cabezo de Torres ,22.242,30110
+650, El Palmar ,19.803,30120
+651, El Raal ,17.346,30139
+652, La Alberca ,23.218,30150
+653, Santo Angel ,24.589,30151
+654, Aljucer ,20.415,30152
+655, Corvera La Murta Los Garcías ,17.623,30153
+656, Algezares ,19.812,30157
+657, Garres y Lagues ,18.845,30158
+658, Las Lumbreras Monteagudo La Cueva ,18.008,30160
+659, Llano de Brujas ,18.09,30161
+660, Santa Cruz ,18.245,30162
+661, El Esparragal ,21.434,30163
+662, Nonduermas ,18.641,30166
+663, Era Alta ,19.286,30168
+664, San Ginés ,18.107,30169
+665, Beniajan ,18.599,30570
+666, Torreagüera ,17.809,30579
+667, Alquerías ,16.259,30580
+668, Los Ramos ,16.085,30589
+669, Gea y Truyols ,15.925,30590
+670, La Ñora ,24.177,30830
+671, Jabalí Nuevo ,19.417,30832
+672, Sangonera La Verde ,17.896,30833
+673, Cañada Hermosa ,19.267,30835
+674,resto Murcia,18.605,308
+675, Logroño ,23.959,26089
+676, Casco Antiguo ,27.975,26001
+677, Centro ,24.444,26002
+678, El Carmen  Cascajos   ,24.68,26003
+679, San José   Los Lirios   ,20.668,26004
+680, Carretera del Cortijo  El Cubo  Zona Oeste(AVEZO) ,22.028,26005
+681, Varea   La Portalada   ,23.466,26006
+682, La Cava Fardachón Las Gaunas Siete Infantes   ,26.713,26007
+683, San Adrián  La Cava   ,26.425,26008
+684, El Campillo  Polígono Cantabria  ,22.568,26009
+685,resto Logroño,22.503,26
