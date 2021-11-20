@@ -1,0 +1,948 @@
+,mun,id
+0,Aiguamúrcia,430017
+1,Alcover,430056
+2,Alió,430108
+3,Bràfim,430347
+4,Cabra del Camp,430363
+5,Figuerola del Camp,430593
+6,"Garidells, els",430666
+7,"Masó, la",430803
+8,"Milà, el",430831
+9,Montferri,430897
+10,Mont-ral,430918
+11,Nulles,430982
+12,"Pla de Santa Maria, el",431080
+13,"Pont d'Armentera, el",431135
+14,Puigpelat,431191
+15,Querol,431205
+16,"Riba, la",431248
+17,Rodonyà,431325
+18,"Rourell, el",431346
+19,Vallmoll,431606
+20,Valls,431613
+21,Vilabella,431652
+22,Vila-rodona,431704
+23,Agullana,170010
+24,Albanyà,170031
+25,"Far d'Empordà, el",170059
+26,"Armentera, l'",170118
+27,Avinyonet de Puigventós,170123
+28,"Vajol, la",170144
+29,Bàscara,170160
+30,Borrassà,170268
+31,Boadella i les Escaules,170293
+32,Cabanes,170307
+33,Cabanelles,170314
+34,Cadaqués,170329
+35,Cantallops,170412
+36,Capmany,170427
+37,Castelló d'Empúries,170470
+38,Cistella,170519
+39,Siurana,170524
+40,Colera,170545
+41,Darnius,170600
+42,"Escala, l'",170622
+43,Espolla,170643
+44,Figueres,170669
+45,Fortià,170741
+46,Garrigàs,170754
+47,Garriguella,170773
+48,"Jonquera, la",170865
+49,Lladó,170887
+50,Llançà,170926
+51,Llers,170932
+52,Masarac,171002
+53,Maçanet de Cabrenys,171024
+54,Mollet de Peralada,171061
+55,Navata,171117
+56,Ordis,171156
+57,Palau de Santa Eulàlia,171194
+58,Palau-saverdera,171208
+59,Pau,171289
+60,Pedret i Marzà,171292
+61,Peralada,171328
+62,Pont de Molins,171352
+63,Pontós,171365
+64,Portbou,171387
+65,"Port de la Selva, el",171404
+66,Rabós,171432
+67,Riumors,171518
+68,Roses,171523
+69,Sant Climent Sescebes,171582
+70,Sant Llorenç de la Muga,171714
+71,Sant Miquel de Fluvià,171753
+72,Sant Mori,171766
+73,Sant Pere Pescador,171788
+74,Santa Llogaia d'Àlguema,171827
+75,"Saus, Camallera i Llampaies",171870
+76,"Selva de Mar, la",171886
+77,Terrades,171962
+78,Torroella de Fluvià,171984
+79,Ventalló,172109
+80,Vilabertran,172142
+81,Viladamat,172174
+82,Vilafant,172214
+83,Vilaür,172229
+84,Vilajuïga,172235
+85,Vilamacolum,172253
+86,Vilamalla,172266
+87,Vilamaniscle,172272
+88,Vilanant,172288
+89,Vila-sacra,172305
+90,Biure,172348
+91,Avinyonet del Penedès,080137
+92,"Cabanyes, les",080272
+93,Castellet i la Gornal,080581
+94,Castellví de la Marca,080654
+95,Font-rubí,080850
+96,Gelida,080919
+97,"Granada, la",080945
+98,Mediona,081228
+99,Olèrdola,081458
+100,Olesa de Bonesvalls,081461
+101,Pacs del Penedès,081542
+102,"Pla del Penedès, el",081640
+103,Pontons,081688
+104,Puigdàlber,081748
+105,Sant Cugat Sesgarrigues,082068
+106,Sant Llorenç d'Hortons,082227
+107,Sant Martí Sarroca,082270
+108,Sant Pere de Riudebitlles,082325
+109,Sant Quintí de Mediona,082362
+110,Sant Sadurní d'Anoia,082401
+111,Santa Fe del Penedès,082495
+112,Santa Margarida i els Monjos,082515
+113,Subirats,082732
+114,Torrelavit,082877
+115,Torrelles de Foix,082883
+116,Vilobí del Penedès,083041
+117,Vilafranca del Penedès,083054
+118,Alàs i Cerc,250058
+119,"Pont de Bar, el",250306
+120,Arsèguel,250328
+121,Bassella,250447
+122,Cabó,250616
+123,Cava,250714
+124,Coll de Nargó,250772
+125,Estamariu,250886
+126,Montferrer i Castellbò,251403
+127,Oliana,251497
+128,Organyà,251556
+129,Peramola,251654
+130,Ribera d'Urgellet,251850
+131,"Seu d'Urgell, la",252038
+132,"Valls de Valira, les",252398
+133,"Valls d'Aguilar, les",259062
+134,Fígols i Alinyà,259084
+135,"Vansa i Fórnols, la",259097
+136,Josa i Tuixén,259101
+137,"Vall de Boí, la",250432
+138,"Pont de Suert, el",251734
+139,Vilaller,252458
+140,Argençola,080082
+141,Bellprat,080214
+142,"Bruc, el",080253
+143,Cabrera d'Anoia,080288
+144,Calaf,080312
+145,Calonge de Segarra,080364
+146,Capellades,080446
+147,Carme,080484
+148,Castellfollit de Riubregós,080608
+149,Castellolí,080636
+150,Copons,080713
+151,Igualada,081022
+152,Jorba,081038
+153,"Llacuna, la",081043
+154,Masquefa,081192
+155,Montmaneu,081332
+156,Òdena,081430
+157,Orpí,081521
+158,Piera,081614
+159,"Hostalets de Pierola, els",081629
+160,"Pobla de Claramunt, la",081653
+161,"Prats de Rei, els",081705
+162,Pujalt,081764
+163,Rubió,081859
+164,Sant Pere Sallavinera,081897
+165,Sant Martí de Tous,082264
+166,Sant Martí Sesgueioles,082286
+167,Santa Margarida de Montbui,082508
+168,Santa Maria de Miralles,082573
+169,"Torre de Claramunt, la",082861
+170,Vallbona d'Anoia,082922
+171,Veciana,082975
+172,Vilanova del Camí,083020
+173,Naut Aran,250254
+174,Arres,250313
+175,Bausen,250450
+176,"Bòrdes, Es",250576
+177,Bossòst,250595
+178,Canejan,250637
+179,Les,251214
+180,Vielha e Mijaran,252430
+181,Vilamòs,252477
+182,Aguilar de Segarra,080023
+183,Artés,080109
+184,Avinyó,080121
+185,Balsareny,080180
+186,Callús,080386
+187,Cardona,080478
+188,Castellbell i el Vilar,080538
+189,Castellfollit del Boix,080594
+190,Castellgalí,080615
+191,Castellnou de Bages,080620
+192,Fonollosa,080847
+193,Gaià,080902
+194,Sant Salvador de Guardiola,080983
+195,Manresa,081136
+196,Monistrol de Montserrat,081271
+197,Mura,081398
+198,Navarcles,081402
+199,Navàs,081419
+200,Rajadell,081786
+201,"Pont de Vilomara i Rocafort, el",081825
+202,Sallent,081918
+203,Santpedor,081923
+204,Sant Feliu Sasserra,082129
+205,Sant Fruitós de Bages,082135
+206,Sant Joan de Vilatorrada,082188
+207,Sant Mateu de Bages,082299
+208,Marganell,082423
+209,Sant Vicenç de Castellet,082628
+210,Súria,082747
+211,Talamanca,082779
+212,"Albiol, l'",430038
+213,"Aleixar, l'",430075
+214,Alforja,430094
+215,Almoster,430115
+216,Arbolí,430154
+217,"Argentera, l'",430173
+218,"Borges del Camp, les",430311
+219,Botarell,430332
+220,Cambrils,430385
+221,Capafonts,430398
+222,Castellvell del Camp,430424
+223,Colldejou,430458
+224,Duesaigües,430537
+225,"Febró, la",430574
+226,Maspujols,430810
+227,Montbrió del Camp,430884
+228,Mont-roig del Camp,430923
+229,Prades,431166
+230,Pratdip,431188
+231,Reus,431233
+232,Riudecanyes,431270
+233,Riudecols,431286
+234,Riudoms,431299
+235,"Selva del Camp, la",431457
+236,Vandellòs i l'Hospitalet de l'Infant,431628
+237,Vilanova d'Escornalbou,431671
+238,Vilaplana,431690
+239,Vinyols i els Arcs,431785
+240,Aldover,430069
+241,Alfara de Carles,430081
+242,"Ametlla de Mar, l'",430136
+243,Benifallet,430252
+244,Xerta,430521
+245,Paüls,431021
+246,"Perelló, el",431042
+247,Roquetes,431331
+248,Tivenys,431495
+249,Tortosa,431554
+250,Deltebre,439018
+251,Camarles,439039
+252,"Aldea, l'",439044
+253,"Ampolla, l'",439060
+254,Albons,170046
+255,Begur,170139
+256,Bellcaire d'Empordà,170182
+257,"Bisbal d'Empordà, la",170221
+258,Calonge i Sant Antoni,170340
+259,Castell-Platja d'Aro,170486
+260,Colomers,170558
+261,Corçà,170577
+262,Foixà,170681
+263,Fontanilles,170708
+264,Garrigoles,170767
+265,Gualta,170813
+266,Jafre,170852
+267,Mont-ras,171100
+268,Palafrugell,171175
+269,Palamós,171181
+270,Palau-sator,171215
+271,Pals,171241
+272,Parlavà,171267
+273,"Pera, la",171306
+274,Regencós,171447
+275,Rupià,171539
+276,Sant Feliu de Guíxols,171609
+277,Santa Cristina d'Aro,171812
+278,Serra de Daró,171910
+279,"Tallada d'Empordà, la",171959
+280,Torrent,171978
+281,Torroella de Montgrí,171997
+282,Ultramort,172039
+283,Ullà,172044
+284,Ullastret,172057
+285,Vall-llobrega,172095
+286,Verges,172116
+287,Vilopriu,172327
+288,"Cruïlles, Monells i Sant Sadurní de l'Heura",179011
+289,Forallac,179026
+290,Abrera,080018
+291,Begues,080207
+292,Castelldefels,080569
+293,Castellví de Rosanes,080667
+294,Cervelló,080689
+295,Collbató,080692
+296,Corbera de Llobregat,080728
+297,Cornellà de Llobregat,080734
+298,Esparreguera,080765
+299,Esplugues de Llobregat,080771
+300,Gavà,080898
+301,Martorell,081141
+302,Molins de Rei,081234
+303,Olesa de Montserrat,081477
+304,Pallejà,081574
+305,"Papiol, el",081580
+306,"Prat de Llobregat, el",081691
+307,Sant Andreu de la Barca,081960
+308,Sant Boi de Llobregat,082009
+309,Sant Climent de Llobregat,082042
+310,Sant Esteve Sesrovires,082080
+311,Sant Feliu de Llobregat,082114
+312,Sant Joan Despí,082172
+313,Sant Just Desvern,082212
+314,Santa Coloma de Cervelló,082444
+315,Sant Vicenç dels Horts,082634
+316,Torrelles de Llobregat,082896
+317,Vallirana,082956
+318,Viladecans,083015
+319,"Palma de Cervelló, la",089058
+320,Albinyana,430022
+321,"Arboç, l'",430167
+322,Banyeres del Penedès,430206
+323,Bellvei,430249
+324,"Bisbal del Penedès, la",430287
+325,Bonastre,430304
+326,Calafell,430379
+327,Cunit,430516
+328,Llorenç del Penedès,430748
+329,Masllorenç,430799
+330,"Montmell, el",430901
+331,Sant Jaume dels Domenys,431378
+332,Santa Oliva,431401
+333,"Vendrell, el",431634
+334,Badalona,080155
+335,Barcelona,080193
+336,"Hospitalet de Llobregat, l'",081017
+337,Sant Adrià de Besòs,081944
+338,Santa Coloma de Gramenet,082457
+339,Avià,080116
+340,Bagà,080168
+341,Berga,080229
+342,Borredà,080240
+343,Capolat,080459
+344,Casserres,080497
+345,Castellar del Riu,080500
+346,Castellar de n'Hug,080522
+347,Castell de l'Areny,080575
+348,"Espunyola, l'",080787
+349,Fígols,080804
+350,Gironella,080924
+351,Gisclareny,080930
+352,Guardiola de Berguedà,080996
+353,Montclar,081304
+354,Montmajor,081326
+355,"Nou de Berguedà, la",081424
+356,Olvan,081445
+357,"Pobla de Lillet, la",081666
+358,Puig-reig,081751
+359,"Quar, la",081770
+360,Sagàs,081884
+361,Saldes,081901
+362,Sant Jaume de Frontanyà,082166
+363,Santa Maria de Merlès,082554
+364,Cercs,082687
+365,Vallcebre,082938
+366,Vilada,082994
+367,Viver i Serrateix,083089
+368,Sant Julià de Cerdanyola,089030
+369,Gósol,251001
+370,Alp,170062
+371,Bolvir,170242
+372,Das,170617
+373,Fontanals de Cerdanya,170694
+374,Ger,170789
+375,Guils de Cerdanya,170828
+376,Isòvol,170849
+377,Llívia,170947
+378,Meranges,170998
+379,Puigcerdà,171411
+380,Urús,172060
+381,Bellver de Cerdanya,250518
+382,Lles de Cerdanya,251272
+383,Montellà i Martinet,251399
+384,Prats i Sansor,251752
+385,Prullans,251790
+386,Riu de Cerdanya,259139
+387,Barberà de la Conca,430213
+388,Blancafort,430290
+389,Conesa,430461
+390,"Espluga de Francolí, l'",430542
+391,Forès,430614
+392,Llorac,430733
+393,Montblanc,430862
+394,Passanant i Belltall,431016
+395,"Piles, les",431055
+396,Pira,431074
+397,Rocafort de Queralt,431303
+398,Santa Coloma de Queralt,431397
+399,Pontils,431418
+400,Sarral,431423
+401,Savallà del Comtat,431439
+402,Senan,431460
+403,Solivella,431476
+404,Vallclara,431589
+405,Vallfogona de Riucorb,431592
+406,Vilanova de Prades,431687
+407,Vilaverd,431726
+408,Vimbodí i Poblet,431763
+409,Canyelles,080431
+410,Cubelles,080749
+411,Olivella,081483
+412,Sant Pere de Ribes,082310
+413,Sitges,082704
+414,Vilanova i la Geltrú,083073
+415,"Albagés, l'",250061
+416,"Albi, l'",250096
+417,Arbeca,250292
+418,Bovera,250560
+419,"Borges Blanques, les",250582
+420,Castelldans,250674
+421,Cervià de les Garrigues,250735
+422,"Cogul, el",250766
+423,"Espluga Calba, l'",250812
+424,"Floresta, la",250925
+425,Fulleda,250978
+426,"Granadella, la",251018
+427,Granyena de les Garrigues,251057
+428,Juncosa,251180
+429,Juneda,251193
+430,"Omellons, els",251538
+431,"Pobla de Cérvoles, la",251692
+432,Bellaguarda,251706
+433,Puiggròs,251804
+434,"Soleràs, el",252069
+435,Tarrés,252189
+436,"Torms, els",252249
+437,"Vilosell, el",252537
+438,Vinaixa,252555
+439,Argelaguer,170101
+440,Besalú,170195
+441,Beuda,170216
+442,Castellfollit de la Roca,170464
+443,Maià de Montcal,170985
+444,Mieres,171058
+445,Montagut i Oix,171096
+446,Olot,171143
+447,"Planes d'Hostoles, les",171334
+448,"Preses, les",171390
+449,Riudaura,171498
+450,Sales de Llierca,171544
+451,Sant Feliu de Pallerols,171616
+452,Sant Ferriol,171621
+453,Sant Jaume de Llierca,171655
+454,Sant Aniol de Finestres,171833
+455,Santa Pau,171848
+456,Sant Joan les Fonts,171851
+457,Tortellà,172001
+458,"Vall d'en Bas, la",172076
+459,"Vall de Bianya, la",172082
+460,Aiguaviva,170025
+461,Bescanó,170209
+462,Bordils,170255
+463,Campllong,170388
+464,Canet d'Adri,170405
+465,Cassà de la Selva,170448
+466,Celrà,170499
+467,Cervià de Ter,170502
+468,Flaçà,170675
+469,Fornells de la Selva,170736
+470,Girona,170792
+471,Juià,170871
+472,Llagostera,170890
+473,Llambilles,170904
+474,Madremanya,170979
+475,Quart,171426
+476,Salt,171557
+477,Sant Andreu Salou,171576
+478,Sant Gregori,171637
+479,Sant Jordi Desvalls,171668
+480,Sant Joan de Mollet,171680
+481,Sant Julià de Ramis,171693
+482,Sant Martí de Llémena,171729
+483,Sant Martí Vell,171735
+484,Sarrià de Ter,171864
+485,Vilablareix,172155
+486,Viladasens,172168
+487,Alella,080039
+488,Arenys de Mar,080060
+489,Arenys de Munt,080076
+490,Argentona,080095
+491,Cabrera de Mar,080291
+492,Cabrils,080305
+493,Caldes d'Estrac,080327
+494,Calella,080351
+495,Canet de Mar,080403
+496,Dosrius,080752
+497,Malgrat de Mar,081108
+498,"Masnou, el",081189
+499,Mataró,081213
+500,Montgat,081265
+501,Òrrius,081537
+502,Palafolls,081555
+503,Pineda de Mar,081635
+504,Premià de Mar,081727
+505,Sant Iscle de Vallalta,081939
+506,Sant Andreu de Llavaneres,081976
+507,Sant Cebrià de Vallalta,082037
+508,Vilassar de Dalt,082140
+509,Vilassar de Mar,082191
+510,Premià de Dalt,082303
+511,Sant Pol de Mar,082359
+512,Santa Susanna,082613
+513,Sant Vicenç de Montalt,082649
+514,Teià,082819
+515,Tiana,082824
+516,Tordera,082845
+517,Calders,080348
+518,Castellcir,080556
+519,Castellterçol,080641
+520,Collsuspina,080706
+521,"Estany, l'",080790
+522,Granera,080958
+523,Monistrol de Calders,081287
+524,Moià,081385
+525,Sant Quirze Safaja,082397
+526,Santa Maria d'Oló,082589
+527,Alcanar,430043
+528,Amposta,430141
+529,"Sénia, la",430445
+530,Freginals,430629
+531,"Galera, la",430635
+532,Godall,430688
+533,Mas de Barberans,430770
+534,Masdenverge,430786
+535,Sant Carles de la Ràpita,431362
+536,Santa Bàrbara,431384
+537,Ulldecona,431567
+538,Sant Jaume d'Enveja,439023
+539,Àger,250024
+540,Albesa,250083
+541,Algerri,250156
+542,Alòs de Balaguer,250220
+543,Artesa de Segre,250349
+544,"Sentiu de Sió, la",250352
+545,"Avellanes i Santa Linya, les",250371
+546,Balaguer,250404
+547,"Baronia de Rialb, la",250426
+548,Bellcaire d'Urgell,250479
+549,Bellmunt d'Urgell,250498
+550,Cabanabona,250609
+551,Camarasa,250621
+552,Castelló de Farfanya,250693
+553,Cubells,250791
+554,Foradada,250946
+555,Ivars de Noguera,251121
+556,Menàrguens,251348
+557,Montgai,251386
+558,Oliola,251500
+559,Os de Balaguer,251569
+560,Penelles,251641
+561,Ponts,251728
+562,Preixens,251771
+563,Térmens,252206
+564,Tiurana,252228
+565,Torrelameu,252311
+566,Vallfogona de Balaguer,252402
+567,Vilanova de l'Aguda,252496
+568,Vilanova de Meià,252509
+569,Alpens,080044
+570,Balenyà,080174
+571,"Brull, el",080266
+572,Calldetenes,080370
+573,Centelles,080673
+574,Folgueroles,080832
+575,Gurb,081000
+576,Lluçà,081094
+577,Malla,081115
+578,Manlleu,081120
+579,"Masies de Roda, les",081167
+580,"Masies de Voltregà, les",081173
+581,Muntanyola,081290
+582,Montesquiu,081311
+583,Olost,081496
+584,Orís,081509
+585,Oristà,081516
+586,Perafita,081607
+587,Prats de Lluçanès,081712
+588,Roda de Ter,081831
+589,Sant Agustí de Lluçanès,081957
+590,Sant Bartomeu del Grau,081995
+591,Sant Boi de Lluçanès,082016
+592,Sant Hipòlit de Voltregà,082153
+593,Sant Julià de Vilatorta,082205
+594,Sant Martí de Centelles,082248
+595,Sant Martí d'Albars,082251
+596,Sant Pere de Torelló,082331
+597,Sant Quirze de Besora,082378
+598,Sant Sadurní d'Osormort,082418
+599,Santa Cecília de Voltregà,082439
+600,Santa Eugènia de Berga,082460
+601,Santa Eulàlia de Riuprimer,082476
+602,Santa Maria de Besora,082536
+603,"Esquirol, l'",082541
+604,Sant Vicenç de Torelló,082652
+605,Seva,082690
+606,Sobremunt,082711
+607,Sora,082726
+608,Tavèrnoles,082750
+609,Taradell,082785
+610,Tavertet,082802
+611,Tona,082830
+612,Torelló,082858
+613,Vic,082981
+614,Vilanova de Sau,083036
+615,Rupit i Pruit,089019
+616,Espinelves,170638
+617,Vidrà,172121
+618,Viladrau,172207
+619,Abella de la Conca,250019
+620,Gavet de la Conca,250984
+621,Isona i Conca Dellà,251155
+622,Llimiana,251288
+623,Conca de Dalt,251615
+624,"Pobla de Segur, la",251713
+625,Salàs de Pallars,251902
+626,Sant Esteve de la Sarga,251961
+627,Sarroca de Bellera,252017
+628,Senterada,252022
+629,Talarn,252154
+630,"Torre de Cabdella, la",252271
+631,Tremp,252347
+632,Castell de Mur,259046
+633,Alins,250175
+634,Alt Àneu,250241
+635,Baix Pallars,250390
+636,Espot,250827
+637,Esterri d'Àneu,250864
+638,Esterri de Cardós,250870
+639,Farrera,250899
+640,Lladorre,251235
+641,Llavorsí,251266
+642,Rialp,251832
+643,Soriguera,252081
+644,Sort,252094
+645,Tírvia,252213
+646,Vall de Cardós,259010
+647,"Guingueta d'Àneu, la",259031
+648,Barbens,250411
+649,Bell-lloc d'Urgell,250485
+650,Bellvís,250523
+651,Castellnou de Seana,250680
+652,Fondarella,250931
+653,Golmés,250997
+654,Ivars d'Urgell,251137
+655,Linyola,251229
+656,Miralcamp,251351
+657,Mollerussa,251370
+658,"Palau d'Anglesola, el",251581
+659,"Poal, el",251689
+660,Sidamon,252056
+661,Torregrossa,252304
+662,Vilanova de Bellpuig,252483
+663,Vila-sana,252521
+664,Banyoles,170157
+665,Camós,170353
+666,Cornellà del Terri,170561
+667,Crespià,170583
+668,Esponellà,170656
+669,Fontcoberta,170715
+670,Palol de Revardit,171236
+671,Porqueres,171371
+672,Sant Miquel de Campmajor,171740
+673,Serinyà,171903
+674,Vilademuls,172180
+675,Bellmunt del Priorat,430234
+676,"Bisbal de Falset, la",430271
+677,Cabacés,430350
+678,Capçanes,430402
+679,Cornudella de Montsant,430496
+680,Falset,430555
+681,"Figuera, la",430580
+682,Gratallops,430691
+683,"Guiamets, els",430705
+684,"Lloar, el",430727
+685,Margalef,430751
+686,Marçà,430764
+687,"Masroig, el",430825
+688,"Molar, el",430859
+689,"Morera de Montsant, la",430960
+690,Poboleda,431129
+691,Porrera,431140
+692,Pradell de la Teixeta,431153
+693,"Torre de Fontaubella, la",431515
+694,Torroja del Priorat,431541
+695,Ulldemolins,431573
+696,"Vilella Alta, la",431732
+697,"Vilella Baixa, la",431747
+698,Ascó,430192
+699,Benissanet,430265
+700,Flix,430607
+701,Garcia,430653
+702,Ginestar,430672
+703,Miravet,430846
+704,Móra d'Ebre,430939
+705,Móra la Nova,430944
+706,"Palma d'Ebre, la",430995
+707,Rasquera,431212
+708,Riba-roja d'Ebre,431251
+709,Tivissa,431508
+710,"Torre de l'Espanyol, la",431520
+711,Vinebre,431779
+712,Campdevànol,170366
+713,Campelles,170372
+714,Camprodon,170391
+715,Queralbs,170433
+716,Gombrèn,170806
+717,Llanars,170911
+718,"Llosses, les",170963
+719,Molló,171077
+720,Ogassa,171122
+721,Pardines,171254
+722,Planoles,171349
+723,Ribes de Freser,171450
+724,Ripoll,171479
+725,Sant Joan de les Abadesses,171674
+726,Vallfogona de Ripollès,171707
+727,Sant Pau de Segúries,171772
+728,Setcases,171925
+729,Toses,172018
+730,Vilallonga de Ter,172240
+731,Biosca,250557
+732,Cervera,250729
+733,Estaràs,250851
+734,Granyanella,251039
+735,Granyena de Segarra,251044
+736,Guissona,251109
+737,Ivorra,251142
+738,Massoteres,251327
+739,Montoliu de Segarra,251410
+740,Montornès de Segarra,251431
+741,"Oluges, les",251522
+742,Sanaüja,251919
+743,Sant Guim de Freixenet,251924
+744,Sant Ramon,251945
+745,Sant Guim de la Plana,251977
+746,Talavera,252167
+747,Tarroja de Segarra,252192
+748,Torà,252234
+749,Ribera d'Ondara,259059
+750,Torrefeta i Florejacs,259078
+751,"Plans de Sió, els",259118
+752,"Alamús, els",250045
+753,Albatàrrec,250077
+754,Alcanó,250100
+755,Alcarràs,250117
+756,Alcoletge,250122
+757,Alfarràs,250138
+758,Alfés,250143
+759,Alguaire,250169
+760,Almacelles,250194
+761,Almatret,250208
+762,Almenar,250215
+763,Alpicat,250236
+764,Artesa de Lleida,250334
+765,Aspa,250365
+766,Aitona,250387
+767,Benavent de Segrià,250539
+768,Corbins,250788
+769,"Granja d'Escarp, la",251023
+770,Lleida,251207
+771,Llardecans,251253
+772,Massalcoreig,251312
+773,Maials,251333
+774,Montoliu de Lleida,251425
+775,"Portella, la",251749
+776,Puigverd de Lleida,251826
+777,Rosselló,251898
+778,Sarroca de Lleida,252000
+779,Seròs,252043
+780,Soses,252108
+781,Sudanell,252115
+782,Sunyer,252120
+783,Torrebesses,252265
+784,Torrefarrera,252287
+785,Torres de Segre,252326
+786,Torre-serona,252332
+787,Vilanova de Segrià,252516
+788,Vilanova de la Barca,252542
+789,Gimenells i el Pla de la Font,259123
+790,Fogars de la Selva,080826
+791,Amer,170078
+792,Anglès,170084
+793,Arbúcies,170097
+794,Blanes,170237
+795,Breda,170274
+796,Brunyola i Sant Martí Sapresa,170280
+797,Caldes de Malavella,170335
+798,Hostalric,170834
+799,Lloret de Mar,170950
+800,Massanes,171019
+801,Maçanet de la Selva,171030
+802,Osor,171169
+803,Riells i Viabrea,171463
+804,Riudarenes,171485
+805,Riudellots de la Selva,171501
+806,Sant Feliu de Buixalleu,171595
+807,Sant Hilari Sacalm,171642
+808,Santa Coloma de Farners,171805
+809,"Cellera de Ter, la",171899
+810,Sils,171931
+811,Susqueda,171946
+812,Tossa de Mar,172023
+813,Vidreres,172137
+814,Vilobí d'Onyar,172333
+815,Sant Julià del Llor i Bonmatí,179032
+816,Castellar de la Ribera,250642
+817,Clariana de Cardener,250753
+818,Guixers,251116
+819,Lladurs,251240
+820,Llobera,251291
+821,"Molsosa, la",251364
+822,Navès,251462
+823,Odèn,251484
+824,Olius,251517
+825,"Coma i la Pedra, la",251636
+826,Pinell de Solsonès,251667
+827,Pinós,251673
+828,Riner,251863
+829,Sant Llorenç de Morunys,251930
+830,Solsona,252075
+831,Altafulla,430120
+832,"Catllar, el",430430
+833,Constantí,430477
+834,Creixell,430509
+835,"Morell, el",430957
+836,"Nou de Gaià, la",430976
+837,"Pallaresos, els",431009
+838,Perafort,431037
+839,"Pobla de Mafumet, la",431093
+840,"Pobla de Montornès, la",431114
+841,Renau,431227
+842,"Riera de Gaià, la",431264
+843,Roda de Berà,431310
+844,Salomó,431359
+845,"Secuita, la",431444
+846,Tarragona,431482
+847,Torredembarra,431536
+848,Vespella de Gaià,431649
+849,Vilallonga del Camp,431665
+850,Vila-seca,431711
+851,Salou,439057
+852,"Canonja, la",439076
+853,Arnes,430189
+854,Batea,430228
+855,Bot,430326
+856,Caseres,430419
+857,Corbera d'Ebre,430483
+858,"Fatarella, la",430568
+859,Gandesa,430640
+860,Horta de Sant Joan,430712
+861,"Pinell de Brai, el",431068
+862,"Pobla de Massaluca, la",431107
+863,Prat de Comte,431172
+864,Vilalba dels Arcs,431750
+865,Agramunt,250030
+866,Anglesola,250273
+867,Belianes,250463
+868,Bellpuig,250501
+869,Castellserà,250707
+870,Ciutadilla,250740
+871,"Fuliola, la",250962
+872,Guimerà,251095
+873,Maldà,251305
+874,Nalec,251459
+875,"Omells de na Gaia, els",251543
+876,Ossó de Sió,251575
+877,Preixana,251765
+878,Puigverd d'Agramunt,251811
+879,Tàrrega,252173
+880,Tornabous,252252
+881,Vallbona de les Monges,252385
+882,Verdú,252424
+883,Vilagrassa,252445
+884,Sant Martí de Riucorb,259025
+885,Castellar del Vallès,080517
+886,Castellbisbal,080543
+887,Gallifa,080879
+888,Matadepera,081206
+889,Montcada i Reixac,081252
+890,Palau-solità i Plegamans,081568
+891,Polinyà,081672
+892,Rellinars,081799
+893,Ripollet,081803
+894,Rubí,081846
+895,Sabadell,081878
+896,Sant Cugat del Vallès,082055
+897,Sant Llorenç Savall,082233
+898,Sant Quirze del Vallès,082384
+899,Barberà del Vallès,082520
+900,Santa Perpètua de Mogoda,082606
+901,Cerdanyola del Vallès,082665
+902,Sentmenat,082671
+903,Terrassa,082798
+904,Ullastrell,082900
+905,Vacarisses,082917
+906,Viladecavalls,083008
+907,Badia del Vallès,089045
+908,"Ametlla del Vallès, l'",080057
+909,Aiguafreda,080142
+910,Bigues i Riells del Fai,080235
+911,Caldes de Montbui,080333
+912,Campins,080399
+913,Canovelles,080410
+914,Cànoves i Samalús,080425
+915,Cardedeu,080462
+916,Fogars de Montclús,080811
+917,"Franqueses del Vallès, les",080863
+918,"Garriga, la",080885
+919,Granollers,080961
+920,Gualba,080977
+921,"Llagosta, la",081056
+922,Llinars del Vallès,081069
+923,Lliçà d'Amunt,081075
+924,Lliçà de Vall,081081
+925,Martorelles,081154
+926,Mollet del Vallès,081249
+927,Figaró-Montmany,081347
+928,Montmeló,081350
+929,Montornès del Vallès,081363
+930,Montseny,081379
+931,Parets del Vallès,081593
+932,"Roca del Vallès, la",081810
+933,Sant Antoni de Vilamajor,081982
+934,Sant Celoni,082021
+935,Sant Esteve de Palautordera,082074
+936,Sant Fost de Campsentelles,082093
+937,Sant Feliu de Codines,082107
+938,Sant Pere de Vilamajor,082346
+939,Santa Eulàlia de Ronçana,082482
+940,Santa Maria de Martorelles,082567
+941,Santa Maria de Palautordera,082592
+942,Tagamanent,082763
+943,Vallgorguina,082943
+944,Vallromanes,082969
+945,Vilalba Sasserra,083067
+946,Vilanova del Vallès,089024
