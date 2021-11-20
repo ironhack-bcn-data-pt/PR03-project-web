@@ -2,7 +2,8 @@
 
 # Guided Project: API and Web Data Scraping
 ## Tema
-    Transporte Aéreo
+
+Transporte Aéreo
     
 ## Pasos
 
@@ -22,7 +23,7 @@
     
  ## Comentario
  
-    Proyecto con gran marjen de mejora, para la entrega me limité a realizar los requisitos para dicho proyecto (Web scraping y Api), pero como se puede observar, los datos         obtenidos pueden tener bastantes aplicaciones
+Proyecto con gran marjen de mejora, para la entrega me limité a realizar los requisitos para dicho proyecto (Web scraping y Api), pero como se puede observar, los datos      obtenidos pueden tener bastantes aplicaciones
    
    
  ## Links
