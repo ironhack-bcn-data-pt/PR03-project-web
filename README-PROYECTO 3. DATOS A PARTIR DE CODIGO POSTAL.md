@@ -12,24 +12,24 @@ El objetivo de este estudio es el obtener datos relevantes a partir del codigo p
 ## Datos obtenidos
 - Fuente. idescat.    
     - datos_cat.csv: 
-            - id: numero identificativo de la poblacion. Numero unico determinado por el INE
-            - municipio: Nombre del municipio, numero de 6 digitos
-            - cp: Codigo postal, numero de 5 digitos 
-            - Superficie km: Superficie del municipio en Km (Dato de **2020**)
-            - hab/km2: Densidad de habitantes por kilometro cuadrado (Dato de **2020**)
-            - poblacion: Cantidad de habitantes del municipio (Dato de **2020**)
-            - % estudos primarios: % de personas con estudios primarios o inferiores (Dato de **2019**)
-            - % primera etapa secundaria: % de personas con estudios de primera etapa de secundaria (Dato de **2019**)
-            - % segunda etapa secundaria: % de personas con estudios de segunta etapa de secundaria (Dato de **2019**)
-            - % estudios superiores:% de personas con estudios superiores (Dato de **2019**)
-            - % Poblacion desocupada: Poblacion activa/ poblacion desocupada del municipio (Dato de **2011**)
-            - Pib por habitante: Producto interior bruto por habitante (Dato de **2019**)
-            - Renta familiar disponible: Renta familiar disponible por habitante del municipio (Dato de **2018**)
+        - id: numero identificativo de la poblacion. Numero unico determinado por el INE
+        - municipio: Nombre del municipio, numero de 6 digitos
+        - cp: Codigo postal, numero de 5 digitos 
+        - Superficie km: Superficie del municipio en Km (Dato de **2020**)
+        - hab/km2: Densidad de habitantes por kilometro cuadrado (Dato de **2020**) 
+        - poblacion: Cantidad de habitantes del municipio (Dato de **2020**)
+        - % estudos primarios: % de personas con estudios primarios o inferiores (Dato de **2019**)
+        - % primera etapa secundaria: % de personas con estudios de primera etapa de secundaria (Dato de **2019**)
+        - % segunda etapa secundaria: % de personas con estudios de segunta etapa de secundaria (Dato de **2019**)
+        - % estudios superiores:% de personas con estudios superiores (Dato de **2019**)
+        - % Poblacion desocupada: Poblacion activa/ poblacion desocupada del municipio (Dato de **2011**)
+        - Pib por habitante: Producto interior bruto por habitante (Dato de **2019**)
+        - Renta familiar disponible: Renta familiar disponible por habitante del municipio (Dato de **2018**)
 - Fuente agencia tributaria:
      - renta_cp_spain.csv:
-            - Nombre: Nombre del municipio
-            - renta_media_disponible: Renta per capita media disponible por habitante (Dato de **2019**)
-            - cp: Codigo postal
+         - Nombre: Nombre del municipio
+         - renta_media_disponible: Renta per capita media disponible por habitante (Dato de **2019**)
+         - cp: Codigo postal
             
 ## Futuras mejoras
 - datos__cat.csv: 
