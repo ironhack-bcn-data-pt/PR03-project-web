@@ -1,0 +1,965 @@
+1636997145292	geckodriver	INFO	Listening on 127.0.0.1:52225
+1636997145363	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52226" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileM8kfYF"
+1636997156417	Marionette	INFO	Marionette enabled
+2021-11-15 18:26:00.768 firefox-bin[3065:115980] Warning: Expected min height of view: (<NSButton: 0x11c7a5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-15 18:26:00.769 firefox-bin[3065:115980] Warning: Expected min height of view: (<NSButton: 0x1284dc400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-15 18:26:00.769 firefox-bin[3065:115980] Warning: Expected min height of view: (<NSButton: 0x129143c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-15 18:26:00.770 firefox-bin[3065:115980] Warning: Expected min height of view: (<NSButton: 0x129144400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-15 18:26:00.770 firefox-bin[3065:115980] Warning: Expected min height of view: (<NSButton: 0x129148000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-15 18:26:00.771 firefox-bin[3065:115980] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x129142400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-15 18:26:00.771 firefox-bin[3065:115980] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12914a800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileM8kfYF/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:52226/devtools/browser/8ae6dc76-628f-8046-b11a-f0508a4a7f36
+1636997162021	Marionette	INFO	Listening on port 52269
+1636997162060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1636997436095	Marionette	INFO	Stopped listening on port 52269
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637081992356	geckodriver	INFO	Listening on 127.0.0.1:52808
+1637081992881	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52809" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileV2u8tu"
+1637082004129	geckodriver	INFO	Listening on 127.0.0.1:52928
+1637082004647	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "52929" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileidBYqb"
+1637082011095	Marionette	INFO	Marionette enabled
+2021-11-16 18:00:15.563 firefox-bin[3738:153164] Warning: Expected min height of view: (<NSButton: 0x12d683800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-16 18:00:15.563 firefox-bin[3738:153164] Warning: Expected min height of view: (<NSButton: 0x12e1e1800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-16 18:00:15.564 firefox-bin[3738:153164] Warning: Expected min height of view: (<NSButton: 0x12e1e5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-16 18:00:15.565 firefox-bin[3738:153164] Warning: Expected min height of view: (<NSButton: 0x12e1e2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-16 18:00:15.565 firefox-bin[3738:153164] Warning: Expected min height of view: (<NSButton: 0x12e1e2c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-16 18:00:15.566 firefox-bin[3738:153164] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12e1e4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-16 18:00:15.566 firefox-bin[3738:153164] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12e1ed800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileidBYqb/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:52929/devtools/browser/ea873f07-3c72-e641-ae94-0ec8165e9aec
+1637082016780	Marionette	INFO	Listening on port 52936
+1637082016829	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: uncaught exception: undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+JavaScript error: https://static-exp1.licdn.com/sc/h/40hch8os6vzuohkdwc6dy7rbp, line 2: TypeError: e is undefined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637258858563	geckodriver	INFO	Listening on 127.0.0.1:60347
+1637258859074	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "60348" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileYuTdcC"
+1637258859522	Marionette	INFO	Marionette enabled
+2021-11-18 19:07:40.274 firefox-bin[82508:884605] Warning: Expected min height of view: (<NSButton: 0x11df33000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 19:07:40.275 firefox-bin[82508:884605] Warning: Expected min height of view: (<NSButton: 0x12a22cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 19:07:40.275 firefox-bin[82508:884605] Warning: Expected min height of view: (<NSButton: 0x12a230800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 19:07:40.276 firefox-bin[82508:884605] Warning: Expected min height of view: (<NSButton: 0x12a22d000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 19:07:40.276 firefox-bin[82508:884605] Warning: Expected min height of view: (<NSButton: 0x12a22f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 19:07:40.277 firefox-bin[82508:884605] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12a22dc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 19:07:40.277 firefox-bin[82508:884605] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12a23b800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileYuTdcC/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:60348/devtools/browser/81dc7f75-fb32-cd42-9024-1602cfe85fb4
+1637258861862	Marionette	INFO	Listening on port 60355
+1637258861961	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1637265438309	geckodriver	INFO	Listening on 127.0.0.1:61361
+1637265438824	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61362" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileZmfGva"
+1637265439381	Marionette	INFO	Marionette enabled
+2021-11-18 20:57:20.431 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x131808400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:57:20.432 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x13180e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:57:20.433 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x13180e400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:57:20.434 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x131811800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:57:20.435 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x131810c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:57:20.435 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131812000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:57:20.436 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131a43400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileZmfGva/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:61362/devtools/browser/a099df85-1951-084d-b07e-0aa2dacf1d2e
+1637265442346	Marionette	INFO	Listening on port 61369
+1637265442379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637265527732	geckodriver	INFO	Listening on 127.0.0.1:61435
+1637265528246	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61436" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileUddJzO"
+1637265528679	Marionette	INFO	Marionette enabled
+2021-11-18 20:58:49.562 firefox-bin[84271:962204] Warning: Expected min height of view: (<NSButton: 0x1338e5400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:58:49.563 firefox-bin[84271:962204] Warning: Expected min height of view: (<NSButton: 0x134539000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:58:49.563 firefox-bin[84271:962204] Warning: Expected min height of view: (<NSButton: 0x134539400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:58:49.564 firefox-bin[84271:962204] Warning: Expected min height of view: (<NSButton: 0x134537000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:58:49.565 firefox-bin[84271:962204] Warning: Expected min height of view: (<NSButton: 0x134537400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:58:49.566 firefox-bin[84271:962204] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134537c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 20:58:49.566 firefox-bin[84271:962204] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13453ec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileUddJzO/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:61436/devtools/browser/b3cb5c4e-1467-8f49-817b-3c41b48f5d71
+1637265530911	Marionette	INFO	Listening on port 61443
+1637265530958	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7qp3dde85htgqpu45mmjvwpao, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/7qp3dde85htgqpu45mmjvwpao, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/6jblk5oqhlo45xbkmcr7s4zix, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
+JavaScript error: resource://gre/modules/LoginManagerChild.jsm, line 194: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]'[JavaScript Error: "Invalid autocomplete selectedIndex" {file: "resource://gre/actors/AutoCompleteChild.jsm" line: 125}]' when calling method: [nsIAutoCompletePopup::selectedIndex]
+JavaScript warning: https://static-exp1.licdn.com/sc/h/3eegd351mum9xbgjpuuth8f88, line 5061: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+1637267121723	geckodriver	INFO	Listening on 127.0.0.1:61971
+1637267122252	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "61972" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilevAtVU5"
+1637267123810	Marionette	INFO	Marionette enabled
+2021-11-18 21:25:25.633 firefox-bin[84636:984042] Warning: Expected min height of view: (<NSButton: 0x13524f000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:25.634 firefox-bin[84636:984042] Warning: Expected min height of view: (<NSButton: 0x13524b400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:25.635 firefox-bin[84636:984042] Warning: Expected min height of view: (<NSButton: 0x13524bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:25.637 firefox-bin[84636:984042] Warning: Expected min height of view: (<NSButton: 0x13524c800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:25.638 firefox-bin[84636:984042] Warning: Expected min height of view: (<NSButton: 0x13524e800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:25.639 firefox-bin[84636:984042] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x135249400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:25.640 firefox-bin[84636:984042] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x13537a400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilevAtVU5/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:61972/devtools/browser/d4d3520d-b215-3545-bf0c-40b66a5e96ca
+1637267129228	Marionette	INFO	Listening on port 61979
+1637267129266	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637267151569	geckodriver	INFO	Listening on 127.0.0.1:62081
+1637267152086	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62082" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilePlEIoH"
+1637267152482	Marionette	INFO	Marionette enabled
+2021-11-18 21:25:53.374 firefox-bin[84652:984892] Warning: Expected min height of view: (<NSButton: 0x12bac2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:53.375 firefox-bin[84652:984892] Warning: Expected min height of view: (<NSButton: 0x12bac8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:53.375 firefox-bin[84652:984892] Warning: Expected min height of view: (<NSButton: 0x12bac3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:53.376 firefox-bin[84652:984892] Warning: Expected min height of view: (<NSButton: 0x12bac4c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:53.377 firefox-bin[84652:984892] Warning: Expected min height of view: (<NSButton: 0x12bac1c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:53.377 firefox-bin[84652:984892] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12bac8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:25:53.378 firefox-bin[84652:984892] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12bbbcc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilePlEIoH/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:62082/devtools/browser/c825c83f-91bd-8a4a-a4a2-dce8bde9b8e2
+1637267155137	Marionette	INFO	Listening on port 62089
+1637267155184	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+2021-11-18 21:28:46.632 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x10c76cc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:28:46.635 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x126c04000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:28:46.635 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x126c04c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:28:46.636 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x126c0a000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:28:46.637 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSButton: 0x126c08c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:28:46.638 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x126c02800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:28:46.638 firefox-bin[84254:961060] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x131806400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+JavaScript error: https://static-exp1.licdn.com/sc/h/1s74c8a4n27jqr9e1six66i2u, line 199: TypeError: this.iframe.contentWindow is null
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x3900D5,name=PContent::Msg_ScriptErrorWithStack) Channel closing: too late to send/recv, messages will be lost
+
+1637267449371	geckodriver	INFO	Listening on 127.0.0.1:62189
+1637267449884	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62190" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilenRTCEG"
+1637267450468	Marionette	INFO	Marionette enabled
+2021-11-18 21:30:51.351 firefox-bin[84714:988932] Warning: Expected min height of view: (<NSButton: 0x126a1f400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:51.352 firefox-bin[84714:988932] Warning: Expected min height of view: (<NSButton: 0x12777fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:51.353 firefox-bin[84714:988932] Warning: Expected min height of view: (<NSButton: 0x127785400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:51.353 firefox-bin[84714:988932] Warning: Expected min height of view: (<NSButton: 0x127783800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:51.354 firefox-bin[84714:988932] Warning: Expected min height of view: (<NSButton: 0x127784c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:51.355 firefox-bin[84714:988932] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x127780800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:51.355 firefox-bin[84714:988932] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12778bc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilenRTCEG/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:62190/devtools/browser/afebd6cc-7b6f-2846-8863-951384b4934c
+1637267453267	Marionette	INFO	Listening on port 62197
+1637267453297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1637267453322	geckodriver	INFO	Listening on 127.0.0.1:62240
+1637267453840	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62241" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilepy7RdK"
+1637267454240	Marionette	INFO	Marionette enabled
+2021-11-18 21:30:55.138 firefox-bin[84722:989382] Warning: Expected min height of view: (<NSButton: 0x1329bf800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:55.139 firefox-bin[84722:989382] Warning: Expected min height of view: (<NSButton: 0x132bf0c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:55.140 firefox-bin[84722:989382] Warning: Expected min height of view: (<NSButton: 0x132bee400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:55.141 firefox-bin[84722:989382] Warning: Expected min height of view: (<NSButton: 0x132bf1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:55.141 firefox-bin[84722:989382] Warning: Expected min height of view: (<NSButton: 0x132bf2800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:55.142 firefox-bin[84722:989382] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132bed000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:30:55.142 firefox-bin[84722:989382] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x132bfb400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilepy7RdK/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:62241/devtools/browser/8627628c-7113-bc43-986b-c27b278628ae
+1637267456799	Marionette	INFO	Listening on port 62250
+1637267456834	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("currentNode is null", "resource://devtools/client/inspector/shared/style-change-tracker.js", 66))
+TypeError: currentNode is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:66:20
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:84:41
+_emit@resource://devtools/shared/event-emitter.js:244:34
+emit@resource://devtools/shared/event-emitter.js:190:18
+emit@resource://devtools/shared/event-emitter.js:342:18
+getMutations@resource://devtools/client/fronts/walker.js:311:10
+
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1001))
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.windowGlobal2147483699/pagestyle40 (resource://devtools/server/actors/page-style.js:1001:5)", "resource://devtools/shared/protocol/Front.js", 365))
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 6213: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1637267893764	geckodriver	INFO	Listening on 127.0.0.1:62604
+1637267894277	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "62605" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileYZKBcm"
+1637267894691	Marionette	INFO	Marionette enabled
+2021-11-18 21:38:15.327 firefox-bin[84827:994653] Warning: Expected min height of view: (<NSButton: 0x129abf800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:38:15.327 firefox-bin[84827:994653] Warning: Expected min height of view: (<NSButton: 0x129abc800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:38:15.328 firefox-bin[84827:994653] Warning: Expected min height of view: (<NSButton: 0x129aba400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:38:15.328 firefox-bin[84827:994653] Warning: Expected min height of view: (<NSButton: 0x129abb400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:38:15.329 firefox-bin[84827:994653] Warning: Expected min height of view: (<NSButton: 0x129abbc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:38:15.329 firefox-bin[84827:994653] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x129abd800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 21:38:15.330 firefox-bin[84827:994653] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x11d165800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileYZKBcm/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:62605/devtools/browser/5c27eeb9-013c-254d-80a4-14065688bb05
+1637267896374	Marionette	INFO	Listening on port 62612
+1637267896453	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 20778: Script terminated by timeout at:
+run/<@https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p:20778:9
+
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 16228: Error: {"status":0}
+1637274617852	geckodriver	INFO	Listening on 127.0.0.1:63758
+1637274618388	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "63759" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilerLHqTr"
+1637274618920	Marionette	INFO	Marionette enabled
+2021-11-18 23:30:19.968 firefox-bin[85687:1030064] Warning: Expected min height of view: (<NSButton: 0x1305e8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:30:19.976 firefox-bin[85687:1030064] Warning: Expected min height of view: (<NSButton: 0x113883c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:30:19.976 firefox-bin[85687:1030064] Warning: Expected min height of view: (<NSButton: 0x1305ef800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:30:19.977 firefox-bin[85687:1030064] Warning: Expected min height of view: (<NSButton: 0x1305f1400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:30:19.978 firefox-bin[85687:1030064] Warning: Expected min height of view: (<NSButton: 0x1305efc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:30:19.979 firefox-bin[85687:1030064] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1305f0800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:30:19.980 firefox-bin[85687:1030064] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1307df800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofilerLHqTr/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:63759/devtools/browser/fd88af36-e627-b645-8cbb-46dd0176685c
+1637274621635	Marionette	INFO	Listening on port 63768
+1637274621700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+1637275047688	geckodriver	INFO	Listening on 127.0.0.1:64262
+1637275048210	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "64263" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileSeiRFU"
+1637275048677	Marionette	INFO	Marionette enabled
+2021-11-18 23:37:29.424 firefox-bin[85857:1036276] Warning: Expected min height of view: (<NSButton: 0x122ed3800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:37:29.424 firefox-bin[85857:1036276] Warning: Expected min height of view: (<NSButton: 0x12f65fc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:37:29.425 firefox-bin[85857:1036276] Warning: Expected min height of view: (<NSButton: 0x12f663800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:37:29.425 firefox-bin[85857:1036276] Warning: Expected min height of view: (<NSButton: 0x12f662000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:37:29.426 firefox-bin[85857:1036276] Warning: Expected min height of view: (<NSButton: 0x12f662400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:37:29.426 firefox-bin[85857:1036276] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12f65d400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-18 23:37:29.427 firefox-bin[85857:1036276] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x12f99f800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileSeiRFU/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:64263/devtools/browser/0a87b428-d763-1a49-9be8-6f3e97cdf644
+1637275050616	Marionette	INFO	Listening on port 64270
+1637275050682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+1637275121321	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/cp7v3n8ksl102yj24vu1z386p, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://static-exp1.licdn.com/sc/h/end0llpkzq4upehyyenx14gnd without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637276562964	geckodriver	INFO	Listening on 127.0.0.1:53303
+1637276563473	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "53304" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofile1thztu"
+1637276564007	Marionette	INFO	Marionette enabled
+2021-11-19 00:02:44.790 firefox-bin[86202:1052411] Warning: Expected min height of view: (<NSButton: 0x127f0e000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:02:44.790 firefox-bin[86202:1052411] Warning: Expected min height of view: (<NSButton: 0x1342d8000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:02:44.791 firefox-bin[86202:1052411] Warning: Expected min height of view: (<NSButton: 0x1342d4800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:02:44.791 firefox-bin[86202:1052411] Warning: Expected min height of view: (<NSButton: 0x1342d8400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:02:44.792 firefox-bin[86202:1052411] Warning: Expected min height of view: (<NSButton: 0x1342d8800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:02:44.793 firefox-bin[86202:1052411] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1342d9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:02:44.793 firefox-bin[86202:1052411] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1344e5800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofile1thztu/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:53304/devtools/browser/5c1a0668-c57b-a64d-9b5c-1923bd07cfd5
+1637276566291	Marionette	INFO	Listening on port 53312
+1637276566368	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637279847879	geckodriver	INFO	Listening on 127.0.0.1:50869
+1637279848397	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50870" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileQHJ3GV"
+1637279848898	Marionette	INFO	Marionette enabled
+2021-11-19 00:57:29.673 firefox-bin[86881:1085720] Warning: Expected min height of view: (<NSButton: 0x1312d3c00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:57:29.674 firefox-bin[86881:1085720] Warning: Expected min height of view: (<NSButton: 0x1312df800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:57:29.675 firefox-bin[86881:1085720] Warning: Expected min height of view: (<NSButton: 0x1312dec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:57:29.676 firefox-bin[86881:1085720] Warning: Expected min height of view: (<NSButton: 0x1312e2000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:57:29.676 firefox-bin[86881:1085720] Warning: Expected min height of view: (<NSButton: 0x1312db800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:57:29.677 firefox-bin[86881:1085720] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1312de400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 00:57:29.677 firefox-bin[86881:1085720] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1314ed800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileQHJ3GV/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:50870/devtools/browser/73710375-b113-8940-86c7-0ccfdcb47877
+1637279850841	Marionette	INFO	Listening on port 50877
+1637279850894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4iihtxx20o3psptzy6y90j80p, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/2fkfh7kgg18m1u7k5rofv97ab, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: https://static-exp1.licdn.com/sc/h/61ls41py0757fr168nuzdnzd8, line 4002: Error: Compile Error: Cannot find component jobs@detail/job-view-layout
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4u3652acs945k46t5y7uh8d3f, line 6: unreachable code after return statement
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+console.error: (new TypeError("browsingContext is null", "resource://devtools/server/actors/watcher/target-helpers/frame-helper.js", 178))
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 347: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 347: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 347: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 347: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 347: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+JavaScript error: resource://devtools/server/connectors/js-window-actor/DevToolsFrameChild.jsm, line 347: Error: Trying to destroy a target actor that doesn't exists, or has already been destroyed. Watcher Actor ID:server0.conn0.watcher2
+1637314248794	Marionette	INFO	Stopped listening on port 60355
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1637339698444	geckodriver	INFO	Listening on 127.0.0.1:50552
+1637339698957	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50553" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileWM2OrL"
+1637339711961	Marionette	INFO	Marionette enabled
+2021-11-19 17:35:19.189 firefox-bin[5957:181009] Warning: Expected min height of view: (<NSButton: 0x133aee000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 17:35:19.190 firefox-bin[5957:181009] Warning: Expected min height of view: (<NSButton: 0x1352ad000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 17:35:19.190 firefox-bin[5957:181009] Warning: Expected min height of view: (<NSButton: 0x1352ae400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 17:35:19.191 firefox-bin[5957:181009] Warning: Expected min height of view: (<NSButton: 0x1352aec00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 17:35:19.191 firefox-bin[5957:181009] Warning: Expected min height of view: (<NSButton: 0x1352ac400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 17:35:19.192 firefox-bin[5957:181009] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1352a9000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 17:35:19.192 firefox-bin[5957:181009] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x1352b1000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileWM2OrL/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:50553/devtools/browser/aa2d1083-9620-0046-a907-484ad383d622
+1637339724052	Marionette	INFO	Listening on port 50572
+1637339724093	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1637341199578	geckodriver	INFO	Listening on 127.0.0.1:51369
+1637341200092	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "51370" "-foreground" "-no-remote" "-profile" "/var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileUVog3B"
+1637341200544	Marionette	INFO	Marionette enabled
+2021-11-19 18:00:01.242 firefox-bin[6298:197769] Warning: Expected min height of view: (<NSButton: 0x134aea400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 18:00:01.243 firefox-bin[6298:197769] Warning: Expected min height of view: (<NSButton: 0x134aee400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 18:00:01.244 firefox-bin[6298:197769] Warning: Expected min height of view: (<NSButton: 0x134aefc00>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 18:00:01.245 firefox-bin[6298:197769] Warning: Expected min height of view: (<NSButton: 0x134aed000>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 18:00:01.246 firefox-bin[6298:197769] Warning: Expected min height of view: (<NSButton: 0x134ae9400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 18:00:01.246 firefox-bin[6298:197769] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134aef400>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+2021-11-19 18:00:01.247 firefox-bin[6298:197769] Warning: Expected min height of view: (<NSPopoverTouchBarItemButton: 0x134d92800>) to be less than or equal to 30 but got a height of 32.000000. This error will be logged once per view in violation.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/x4/j5splm5d1yv_0jpj70nz1mvc0000gn/T/rust_mozprofileUVog3B/search.json.mozlz4", (void 0)))
+console.error: BackgroundUpdate: 
+  _reasonsToNotScheduleUpdates: Failed to check for Maintenance Service Registry Key: [Exception... "Component returned failure code: 0x80004001 (NS_ERROR_NOT_IMPLEMENTED) [nsIUpdateProcessor.getServiceRegKeyExists]"  nsresult: "0x80004001 (NS_ERROR_NOT_IMPLEMENTED)"  location: "JS frame :: resource://gre/modules/BackgroundUpdate.jsm :: _reasonsToNotScheduleUpdates :: line 243"  data: no]
+DevTools listening on ws://localhost:51370/devtools/browser/8d51a52e-b381-1749-a791-bfc287a90871
+1637341202489	Marionette	INFO	Listening on port 51377
+1637341202574	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://static-exp1.licdn.com/sc/h/asltihh0km5qs27muv07g8ukp, line 2: Error: GoogleOneTapError display: unknown_reason
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/f1ivcoy4z3gl29yn285iyfvtn, line 6355: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/4meqljc5yd3706gnh7wh3swwo, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/8gfjeprcifjz8fgjqcgi2h22n, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/5vagfymbzfhn11gffldykebvf, line 39: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/b8hyl3yycu7huf3aa4vs3gg1f, line 6: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/96v0mna9llzh6qpr6pji8llz7, line 6: unreachable code after return statement
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript warning: https://static-exp1.licdn.com/sc/h/63hzyc5ogigj5376adnxwppud, line 39: unreachable code after return statement
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+JavaScript error: , line 0: uncaught exception: Object
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
