@@ -51,4 +51,4 @@ The repository contains:
 
 ## Links
 [OpenDataBCN](https://opendata-ajuntament.barcelona.cat/es/) 
-[Nomenclator] (http://www.bcn.cat/nomenclator/castella/welcome.htm) 
+[Nomenclator](http://www.bcn.cat/nomenclator/castella/welcome.htm) 
